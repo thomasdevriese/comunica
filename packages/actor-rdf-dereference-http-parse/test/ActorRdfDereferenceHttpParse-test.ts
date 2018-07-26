@@ -1,6 +1,7 @@
 import {ActorRdfDereference} from "@comunica/bus-rdf-dereference";
 import {Bus} from "@comunica/core";
 import {MediatorRace} from "@comunica/mediator-race";
+import {EmptyIterator} from "asynciterator";
 import "isomorphic-fetch";
 import {PassThrough} from "stream";
 import {ActorRdfDereferenceHttpParse} from "../lib/ActorRdfDereferenceHttpParse";
@@ -47,6 +48,9 @@ describe('ActorRdfDereferenceHttpParse', () => {
         if (action.mediaTypes) {
           return { mediaTypes: { a: 1.0 }};
         } else {
+          if (action.handleMediaType === 'error') {
+            return Promise.reject(new Error('Invalid media type'));
+          }
           return { handle: { quads: 'fine', triples: true }};
         }
       };
@@ -56,7 +60,10 @@ describe('ActorRdfDereferenceHttpParse', () => {
         return {
           body: action.input === 'https://www.google.com/noweb'
           ? require('node-web-streams').toWebReadableStream(new PassThrough()) : new PassThrough(),
-          headers: { get: () => 'a; charset=utf-8', has: () => !extension },
+          headers: {
+            get: () => action.input.indexOf('parseerror') >= 0 ? 'error' : 'a; charset=utf-8',
+            has: () => !extension,
+          },
           status,
           url: extension ? action.input : 'https://www.google.com/index.html',
         };
@@ -119,6 +126,20 @@ describe('ActorRdfDereferenceHttpParse', () => {
 
     it('should not run on a 404', () => {
       return expect(actor.run({ url: 'https://www.nogoogle.com/notfound' })).rejects.toBeTruthy();
+    });
+
+    it('should run on a 404 with silent errors', () => {
+      return expect(actor.run({ url: 'https://www.nogoogle.com/notfound', silenceErrors: true })).resolves
+        .toMatchObject({ pageUrl: 'https://www.google.com/index.html', quads: new EmptyIterator(), triples: true });
+    });
+
+    it('should not run on a parse error', () => {
+      return expect(actor.run({ url: 'https://www.google.com/parseerror' })).rejects.toBeTruthy();
+    });
+
+    it('should run on a parse error with silent errors', async () => {
+      return expect(actor.run({ url: 'https://www.google.com/parseerror', silenceErrors: true })).resolves
+        .toMatchObject({ pageUrl: 'https://www.google.com/index.html', quads: new EmptyIterator(), triples: true });
     });
   });
 });
