@@ -55,8 +55,8 @@ export class ActorRdfDereferenceHttpParse extends ActorRdfDereferenceMediaMappin
     // Only parse if retrieval was successful
     if (httpResponse.status !== 200) {
       if (action.silenceErrors) {
-        // TODO: abstract to logger
-        process.stderr.write('Could not retrieve ' + action.url + ' (' + httpResponse.status + ')\n');
+        this.logWarn(action.context, `Could not retrieve ${action.url} (${httpResponse.status})`,
+          { actor: this.name });
         return { pageUrl: httpResponse.url, quads: new EmptyIterator(), triples: true };
       } else {
         throw new Error('Could not retrieve ' + action.url + ' (' + httpResponse.status + ')');
@@ -76,10 +76,16 @@ export class ActorRdfDereferenceHttpParse extends ActorRdfDereferenceMediaMappin
     try {
       parseActionOutput = (await this.mediatorRdfParse.mediate(
         { context: action.context, handle: parseAction, handleMediaType: mediaType }));
+      if (action.silenceErrors) {
+        parseActionOutput.handle.quads.on('error', (e) => {
+          this.logWarn(action.context, `Could not parse ${action.url} (${httpResponse.status})`,
+            { actor: this.name });
+        });
+      }
     } catch (e) {
       if (action.silenceErrors) {
-        // TODO: abstract to logger
-        process.stderr.write('Could not parse ' + action.url + ' (' + httpResponse.status + '): ' + e.message + '\n');
+        this.logWarn(action.context, `Could not parse ${action.url} (${httpResponse.status}): ${e.message}`,
+          { actor: this.name });
         return { pageUrl: httpResponse.url, quads: new EmptyIterator(), triples: true };
       } else {
         throw e;
