@@ -82,7 +82,7 @@ export class ActorRdfDereferenceHttpParse extends ActorRdfDereferenceMediaMappin
       mediaType = this.getMediaTypeFromExtension(httpResponse.url);
     }
 
-    const parseAction: IActionRdfParse = { input: responseStream, baseIRI: httpResponse.url  };
+    const parseAction: IActionRdfParse = { input: responseStream, baseIRI: httpResponse.url };
     let parseActionOutput: IActorOutputRootRdfParse;
     try {
       parseActionOutput = (await this.mediatorRdfParse.mediate(
