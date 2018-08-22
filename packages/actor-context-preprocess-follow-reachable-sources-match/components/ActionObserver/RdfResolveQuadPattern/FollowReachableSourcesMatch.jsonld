@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-context-preprocess-follow-reachable-sources-match/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-resolve-quad-pattern/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@comunica/actor-context-preprocess-follow-reachable-sources-match",
+  "components": [
+    {
+      "@id": "cacpfrsm:ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch",
+      "@type": "Class",
+      "extends": "cc:ActionObserver",
+      "requireElement": "ActionObserverRdfResolveQuadPattern",
+      "comment": "Tracks all URIs in matched quads.",
+      "parameters": [
+        {
+          "@id": "cc:ActionObserver/bus",
+          "defaultScoped": {
+            "defaultScope": "cacpfrsm:ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch",
+            "defaultScopedValue": { "@id": "cbrrqp:Bus/RdfResolveQuadPattern" }
+          }
+        }
+      ],
+      "constructorArguments": [
+        {
+          "extends": "cc:ActionObserver/constructorArgumentsObject"
+        }
+      ]
+    }
+  ]
+}

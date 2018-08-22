@@ -131,8 +131,7 @@ export class FederatedQuadSource implements ILazyQuadSource {
       };
 
       // Prepare the context for this specific source
-      const context: ActionContext = this.contextDefault.set(KEY_CONTEXT_SOURCE,
-        { type: source.type, value: source.value });
+      const context: ActionContext = this.contextDefault.set(KEY_CONTEXT_SOURCE, source);
 
       return new PromiseProxyIterator(async () => {
         let output: IActorRdfResolveQuadPatternOutput;

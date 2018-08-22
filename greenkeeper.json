@@ -12,6 +12,7 @@
         "packages/actor-abstract-path/package.json",
         "packages/actor-context-preprocess-rdf-source-identifier/package.json",
         "packages/actor-context-preprocess-follow-reachable-sources-all/package.json",
+        "packages/actor-context-preprocess-follow-reachable-sources-match/package.json",
         "packages/actor-http-memento/package.json",
         "packages/actor-http-native/package.json",
         "packages/actor-http-node-fetch/package.json",

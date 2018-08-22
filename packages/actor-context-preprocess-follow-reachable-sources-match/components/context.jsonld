@@ -1,0 +1,13 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^3.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "cacpfrsm": "npmd:@comunica/actor-context-preprocess-follow-reachable-sources-match/",
+      "files-cacpfrsm": "cacpfrsm:^1.0.0/",
+
+      "ActorContextPreprocessFollowReachableSourcesMatch": "cacpfrsm:Actor/ContextPreprocess/FollowReachableSourcesMatch",
+      "ActionObserverRdfResolveQuadPatternFollowReachableSourcesMatch": "cacpfrsm:ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch"
+    }
+  ]
+}

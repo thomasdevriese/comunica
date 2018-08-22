@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-context-preprocess-follow-reachable-sources-match/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-context-preprocess/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@comunica/actor-context-preprocess-follow-reachable-sources-match",
+  "components": [
+    {
+      "@id": "cacpfrsm:Actor/ContextPreprocess/FollowReachableSourcesMatch",
+      "@type": "Class",
+      "extends": "cbcp:Actor/ContextPreprocess",
+      "requireElement": "ActorContextPreprocessFollowReachableSourcesMatch",
+      "comment": "A comunica Follow Reachable Sources Match Context Preprocess Actor.",
+      "parameters": [
+        {
+          "@id": "cacpfrsm:Actor/ContextPreprocess/rdfResolveQuadPatternObserver",
+          "comment": "The RDF Resolve Quad Pattern observer that tracks all URIs in parsed quads",
+          "range": "cacpfrsm:ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch",
+          "required": true,
+          "unique": true,
+          "defaultScoped": {
+            "defaultScope": "cacpfrsm:Actor/ContextPreprocess/FollowReachableSourcesMatch",
+            "defaultScopedValue": {
+              "@id": "cacpfrsm:Actor/ContextPreprocess/rdfResolveQuadPatternObserver/default",
+              "@type": "cacpfrsm:ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch"
+            }
+          }
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "cacpfrsm:Actor/ContextPreprocess/FollowReachableSourcesMatch/constructorArgumentsObject",
+          "extends": "cbcp:Actor/ContextPreprocess/constructorArgumentsObject",
+          "fields": [
+            {
+              "keyRaw": "rdfResolveQuadPatternObserver",
+              "value": "cacpfrsm:Actor/ContextPreprocess/rdfResolveQuadPatternObserver"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-context-preprocess-follow-reachable-sources-match/^1.0.0/components/context.jsonld",
+  "@id": "npmd:@comunica/actor-context-preprocess-follow-reachable-sources-match",
+  "@type": "Module",
+  "requireName": "@comunica/actor-context-preprocess-follow-reachable-sources-match",
+  "import": [
+    "files-cacpfrsm:components/ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch.jsonld",
+    "files-cacpfrsm:components/Actor/ContextPreprocess/FollowReachableSourcesMatch.jsonld"
+  ]
+}
