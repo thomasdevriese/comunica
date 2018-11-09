@@ -4,6 +4,7 @@
   "@type": "Module",
   "requireName": "@comunica/actor-context-preprocess-follow-reachable-sources-match",
   "import": [
+    "files-cacpfrsm:components/ActionObserver/RdfDereference/FollowReachableSourcesMatch.jsonld",
     "files-cacpfrsm:components/ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch.jsonld",
     "files-cacpfrsm:components/Actor/ContextPreprocess/FollowReachableSourcesMatch.jsonld"
   ]

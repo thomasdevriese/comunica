@@ -39,6 +39,16 @@ export abstract class ActionObserver<I extends IAction, O extends IActorOutput> 
    */
   public abstract onRun(actor: Actor<I, IActorTest, O>, action: I, output: Promise<O>): void;
 
+  /**
+   * Invoked when an action was rejected by a mediator.
+   *
+   * @param {I}           action The original action input.
+   * @param {Error} error The mediator error.
+   */
+  public onError(action: I, error: Error): void {
+    // Empty default implementation
+  }
+
 }
 
 export interface IActionObserverArgs<I extends IAction, O extends IActorOutput> {

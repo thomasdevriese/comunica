@@ -2,6 +2,7 @@ import {ActorContextPreprocess, IActorContextPreprocessOutput} from "@comunica/b
 import {DataSources, IDataSource, KEY_CONTEXT_SOURCES} from "@comunica/bus-rdf-resolve-quad-pattern";
 import {IAction, IActorArgs, IActorTest} from "@comunica/core";
 import {AsyncReiterableArray} from "asyncreiterable";
+import {ActionObserverRdfDereference} from "./ActionObserverRdfDereference";
 import {ActionObserverRdfResolveQuadPattern} from "./ActionObserverRdfResolveQuadPattern";
 
 /**
@@ -9,10 +10,12 @@ import {ActionObserverRdfResolveQuadPattern} from "./ActionObserverRdfResolveQua
  */
 export class ActorContextPreprocessFollowReachableSourcesMatch extends ActorContextPreprocess {
 
+  public readonly rdfDereferenceObserver: ActionObserverRdfDereference;
   public readonly rdfResolveQuadPatternObserver: ActionObserverRdfResolveQuadPattern;
 
   constructor(args: IActorContextPreprocessFollowReachableSourcesAllAgs) {
     super(args);
+    this.rdfDereferenceObserver.setPatterns(this.rdfResolveQuadPatternObserver.patterns);
   }
 
   public async test(action: IAction): Promise<IActorTest> {
@@ -27,10 +30,14 @@ export class ActorContextPreprocessFollowReachableSourcesMatch extends ActorCont
       const it = sources.iterator();
       it.on('data', (source: IDataSource) => newSources.push(source));
 
-      this.rdfResolveQuadPatternObserver.addUriListener(
-        (uri: string) => newSources.push({ type: 'file', value: encodeURI(uri), silenceErrors: true }));
-
-      // The Web is (practically) infinitely large, so we are not able to emit an 'end' event.
+      this.rdfDereferenceObserver.addUriListener(
+        (uri: string) => {
+          if (uri) {
+            newSources.push({ type: 'file', value: uri, silenceErrors: true });
+          } else {
+            newSources.push(null);
+          }
+        });
 
       return { context: action.context.set(KEY_CONTEXT_SOURCES, newSources) };
     }

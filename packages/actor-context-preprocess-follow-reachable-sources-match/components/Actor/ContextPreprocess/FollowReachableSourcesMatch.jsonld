@@ -13,8 +13,22 @@
       "comment": "A comunica Follow Reachable Sources Match Context Preprocess Actor.",
       "parameters": [
         {
+          "@id": "cacpfrsm:Actor/ContextPreprocess/rdfDereferenceObserver",
+          "comment": "The RDF Dereference observer that tracks all URIs in parsed quads",
+          "range": "cacpfrsm:ActionObserver/RdfDereference/FollowReachableSourcesAll",
+          "required": true,
+          "unique": true,
+          "defaultScoped": {
+            "defaultScope": "cacpfrsm:Actor/ContextPreprocess/FollowReachableSourcesMatch",
+            "defaultScopedValue": {
+              "@id": "cacpfrsm:Actor/ContextPreprocess/rdfDereferenceObserver/default",
+              "@type": "cacpfrsm:ActionObserver/RdfDereference/FollowReachableSourcesMatch"
+            }
+          }
+        },
+        {
           "@id": "cacpfrsm:Actor/ContextPreprocess/rdfResolveQuadPatternObserver",
-          "comment": "The RDF Resolve Quad Pattern observer that tracks all URIs in parsed quads",
+          "comment": "The RDF Resolve Quad Pattern observer that tracks all quad patterns",
           "range": "cacpfrsm:ActionObserver/RdfResolveQuadPattern/FollowReachableSourcesMatch",
           "required": true,
           "unique": true,
@@ -32,6 +46,10 @@
           "@id": "cacpfrsm:Actor/ContextPreprocess/FollowReachableSourcesMatch/constructorArgumentsObject",
           "extends": "cbcp:Actor/ContextPreprocess/constructorArgumentsObject",
           "fields": [
+            {
+              "keyRaw": "rdfDereferenceObserver",
+              "value": "cacpfrsm:Actor/ContextPreprocess/rdfDereferenceObserver"
+            },
             {
               "keyRaw": "rdfResolveQuadPatternObserver",
               "value": "cacpfrsm:Actor/ContextPreprocess/rdfResolveQuadPatternObserver"

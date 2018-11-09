@@ -112,13 +112,25 @@ export class Bus<A extends Actor<I, T, O>, I extends IAction, T extends IActorTe
   /**
    * Invoked when an action was run by an actor.
    *
-   * @param actor               The action on which the {@link Actor#run} method was invoked.
+   * @param              actor               The action on which the {@link Actor#run} method was invoked.
    * @param {I}          action The original action input.
    * @param {Promise<O>} output A promise resolving to the final action output.
    */
   public onRun(actor: Actor<I, T, O>, action: I, output: Promise<O>): void {
     for (const observer of this.observers) {
       observer.onRun(actor, action, output);
+    }
+  }
+
+  /**
+   * Invoked when an action was rejected by a mediator.
+   *
+   * @param {I}           action The original action input.
+   * @param {Error} error The mediator error.
+   */
+  public onError(action: I, error: Error): void {
+    for (const observer of this.observers) {
+      observer.onError(action, error);
     }
   }
 

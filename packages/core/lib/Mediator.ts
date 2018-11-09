@@ -85,8 +85,14 @@ export abstract class Mediator<A extends Actor<I, T, O>,
    */
   public async mediate(action: I): Promise<O> {
     // Mediate to one actor and run the action on it
-    const actor: A = await this.mediateActor(action);
-    return actor.runObservable(action);
+    try {
+      const actor: A = await this.mediateActor(action);
+      return actor.runObservable(action);
+    } catch (error) {
+      this.bus.onError(action, error);
+      // Re-throw the error, because we still need to return a rejecting promise.
+      throw error;
+    }
   }
 
   /**
