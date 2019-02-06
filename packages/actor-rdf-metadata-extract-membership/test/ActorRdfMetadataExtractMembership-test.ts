@@ -79,7 +79,7 @@ describe('ActorRdfMetadataExtractMembership', () => {
       it('should detect links', async () => {
         const filters = {};
         await actor.detectMembershipProperties(inputLink, filters);
-        return expect(filters).toEqual({ 'http://ex.org/filter': { pageIri: 'http://ex.org/subject' } });
+        return expect(filters).toEqual({ 'http://ex.org/filter': { pageUrl: 'http://ex.org/subject' } });
       });
 
       it('should detect links with properties', async () => {
@@ -90,7 +90,79 @@ describe('ActorRdfMetadataExtractMembership', () => {
             bits: '2',
             filter: 'abc',
             hashes: '1',
-            pageIri: 'http://ex.org/subject',
+            pageUrl: 'http://ex.org/subject',
+            type: 'http://ex.org/type',
+            variable: 'http://ex.org/var',
+          },
+        });
+      });
+    });
+
+    describe('#filterPageMembershipFilters', () => {
+      it('should not change an empty object', async () => {
+        const filters = {};
+        actor.filterPageMembershipFilters('http://ex.org/page', filters);
+        return expect(filters).toEqual({});
+      });
+
+      it('should not filter out a filter with the pageUrl', async () => {
+        const filters = {
+          'http://ex.org/filter': {
+            bits: '2',
+            filter: 'abc',
+            hashes: '1',
+            pageUrl: 'http://ex.org/page',
+            type: 'http://ex.org/type',
+            variable: 'http://ex.org/var',
+          },
+        };
+        actor.filterPageMembershipFilters('http://ex.org/page', filters);
+        return expect(filters).toEqual({
+          'http://ex.org/filter': {
+            bits: '2',
+            filter: 'abc',
+            hashes: '1',
+            pageUrl: 'http://ex.org/page',
+            type: 'http://ex.org/type',
+            variable: 'http://ex.org/var',
+          },
+        });
+      });
+
+      it('should filter out filters with a different pageUrl', async () => {
+        const filters = {
+          'http://ex.org/filter1': {
+            bits: '2',
+            filter: 'abc',
+            hashes: '1',
+            pageUrl: 'http://ex.org/page',
+            type: 'http://ex.org/type',
+            variable: 'http://ex.org/var',
+          },
+          'http://ex.org/filter2': {
+            bits: '2',
+            filter: 'abc',
+            hashes: '1',
+            pageUrl: 'http://ex.org/pageOther',
+            type: 'http://ex.org/type',
+            variable: 'http://ex.org/var',
+          },
+          'http://ex.org/filter3': {
+            bits: '2',
+            filter: 'abc',
+            hashes: '1',
+            pageUrl: 'http://ex.org/pageOther',
+            type: 'http://ex.org/type',
+            variable: 'http://ex.org/var',
+          },
+        };
+        actor.filterPageMembershipFilters('http://ex.org/page', filters);
+        return expect(filters).toEqual({
+          'http://ex.org/filter1': {
+            bits: '2',
+            filter: 'abc',
+            hashes: '1',
+            pageUrl: 'http://ex.org/page',
             type: 'http://ex.org/type',
             variable: 'http://ex.org/var',
           },
