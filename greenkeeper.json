@@ -63,6 +63,7 @@
         "packages/actor-rdf-join-symmetrichash/package.json",
         "packages/actor-rdf-metadata-extract-hydra-controls/package.json",
         "packages/actor-rdf-metadata-extract-hydra-count/package.json",
+        "packages/actor-rdf-metadata-extract-membership/package.json",
         "packages/actor-rdf-metadata-primary-topic/package.json",
         "packages/actor-rdf-metadata-triple-predicate/package.json",
         "packages/actor-rdf-parse-jsonld/package.json",
