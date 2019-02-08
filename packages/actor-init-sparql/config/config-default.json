@@ -10,6 +10,7 @@
     "files-cais:config/sets/http-memento.json",
     "files-cais:config/sets/join.json",
     "files-cais:config/sets/rdf-dereference.json",
+    "files-cais:config/sets/rdf-membership-filter.json",
     "files-cais:config/sets/rdf-parsers.json",
     "files-cais:config/sets/rdf-serializers.json",
     "files-cais:config/sets/context-preprocess-rdf-source-identifiers.json",

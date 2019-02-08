@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-init-sparql/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/runner/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-rdf-metadata-extract-membership/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-membership-filter/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-rdf-membership-filter-bloom/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-rdf-membership-filter-gcs/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-dereference/^1.0.0/components/context.jsonld",
+
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-race/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "urn:comunica:my",
+  "actors": [
+    {
+      "@id": "config-sets:rdf-membership-filter.json#myMembershipMetadataExtractor",
+      "@type": "ActorRdfMetadataExtractMembership",
+      "carmem:mediatorRdfMembership": {
+        "@id": "config-sets:rdf-membership-filter.json#mediatorRdfMembership",
+        "@type": "MediatorRace",
+        "cc:Mediator/bus": { "@id": "cbrmf:Bus/RdfMembershipFilter" }
+      },
+      "carmem:mediatorRdfDereference": {
+        "@id": "config-sets:rdf-membership-filter.json#mediatorRdfDereference",
+        "@type": "MediatorRace",
+        "cc:Mediator/bus": { "@id": "cbrd:Bus/RdfDereference" }
+      }
+    },
+    {
+      "@id": "config-sets:rdf-membership-filter.json#myBloomFilter",
+      "@type": "ActorRdfMembershipFilterBloom"
+    },
+    {
+      "@id": "config-sets:rdf-membership-filter.json#myGcsFilter",
+      "@type": "ActorRdfMembershipFilterGcs"
+    }
+  ]
+}
