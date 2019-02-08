@@ -2,6 +2,7 @@ import {ActorRdfMetadataExtract} from "@comunica/bus-rdf-metadata-extract";
 import {Bus} from "@comunica/core";
 import {Readable} from "stream";
 import {ActorRdfMetadataExtractMembership} from "../lib/ActorRdfMetadataExtractMembership";
+import {ApproximateMembershipFilterLazy} from "../lib/ApproximateMembershipFilterLazy";
 const stream = require('streamify-array');
 const quad = require('rdf-quad');
 
@@ -35,9 +36,16 @@ describe('ActorRdfMetadataExtractMembership', () => {
     let inputNone: Readable;
     let inputLink: Readable;
     let inputLinkProps: Readable;
+    let mediatorRdfMembership: any;
+    let mediatorRdfDereference: any;
 
     beforeEach(() => {
-      actor = new ActorRdfMetadataExtractMembership({ name: 'actor', bus });
+      mediatorRdfMembership = {
+        mediate: async ({ typeUri, properties }) => ({ filter: { type: typeUri, ...properties } }),
+      };
+      mediatorRdfDereference = null;
+      actor = new ActorRdfMetadataExtractMembership(
+        { name: 'actor', bus, mediatorRdfMembership, mediatorRdfDereference });
       input = stream([
         quad('s1', 'p1', 'o1', ''),
         quad('g1', 'py', '12345', ''),
@@ -59,40 +67,41 @@ describe('ActorRdfMetadataExtractMembership', () => {
         quad('http://ex.org/filter', 'http://semweb.mmlab.be/ns/membership#variable', 'http://ex.org/var'),
         quad('http://ex.org/filter', 'http://semweb.mmlab.be/ns/membership#hashes', '"1"'),
         quad('http://ex.org/filter', 'http://semweb.mmlab.be/ns/membership#bits', '"2"'),
-        quad('http://ex.org/filter', 'http://ex.org/otther', '"IGNORED"'),
+        quad('http://ex.org/filter', 'http://ex.org/other', '"Other"'),
       ]);
     });
 
     describe('#detectMembershipProperties', () => {
       it('should detect nothing in an empty stream', async () => {
         const filters = {};
-        await actor.detectMembershipProperties(inputNone, filters);
+        await ActorRdfMetadataExtractMembership.detectMembershipProperties(inputNone, filters);
         return expect(filters).toEqual({});
       });
 
       it('should detect nothing in a stream without membership metadata', async () => {
         const filters = {};
-        await actor.detectMembershipProperties(input, filters);
+        await ActorRdfMetadataExtractMembership.detectMembershipProperties(input, filters);
         return expect(filters).toEqual({});
       });
 
       it('should detect links', async () => {
         const filters = {};
-        await actor.detectMembershipProperties(inputLink, filters);
+        await ActorRdfMetadataExtractMembership.detectMembershipProperties(inputLink, filters);
         return expect(filters).toEqual({ 'http://ex.org/filter': { pageUrl: 'http://ex.org/subject' } });
       });
 
       it('should detect links with properties', async () => {
         const filters = {};
-        await actor.detectMembershipProperties(inputLinkProps, filters);
+        await ActorRdfMetadataExtractMembership.detectMembershipProperties(inputLinkProps, filters);
         return expect(filters).toEqual({
           'http://ex.org/filter': {
-            bits: '2',
-            filter: 'abc',
-            hashes: '1',
-            pageUrl: 'http://ex.org/subject',
-            type: 'http://ex.org/type',
-            variable: 'http://ex.org/var',
+            'http://ex.org/other': 'Other',
+            'http://semweb.mmlab.be/ns/membership#bits': '2',
+            'http://semweb.mmlab.be/ns/membership#filter': 'abc',
+            'http://semweb.mmlab.be/ns/membership#hashes': '1',
+            'http://semweb.mmlab.be/ns/membership#variable': 'http://ex.org/var',
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type': 'http://ex.org/type',
+            'pageUrl': 'http://ex.org/subject',
           },
         });
       });
@@ -170,13 +179,66 @@ describe('ActorRdfMetadataExtractMembership', () => {
       });
     });
 
+    describe('#initializeFilters', () => {
+      it('should initialize nothing for an empty object', async () => {
+        const filters = {};
+        return expect(await actor.initializeFilters(filters)).toEqual([]);
+      });
+
+      it('should ignore filters without variable', async () => {
+        const filters = {
+          'http://ex.org/filter1': {
+            'http://semweb.mmlab.be/ns/membership#filter': 'abc',
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type': 'http://ex.org/type',
+          },
+        };
+        return expect(await actor.initializeFilters(filters)).toEqual([]);
+      });
+
+      it('should initialize a filter by valid type', async () => {
+        const filters = {
+          'http://ex.org/filter1': {
+            'http://semweb.mmlab.be/ns/membership#filter': 'abc',
+            'http://semweb.mmlab.be/ns/membership#variable': 'http://ex.org/var',
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type': 'http://ex.org/type',
+          },
+        };
+        return expect(await actor.initializeFilters(filters)).toEqual([
+          {
+            filter: {
+              'http://semweb.mmlab.be/ns/membership#filter': 'abc',
+              'http://semweb.mmlab.be/ns/membership#variable': 'http://ex.org/var',
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type': 'http://ex.org/type',
+              'type': 'http://ex.org/type',
+            },
+            variable: 'http://ex.org/var',
+          },
+        ]);
+      });
+
+      it('should initialize a filter with missing type lazily', async () => {
+        const filters = {
+          'http://ex.org/filter1': {
+            'http://semweb.mmlab.be/ns/membership#variable': 'http://ex.org/var',
+          },
+        };
+        return expect(await actor.initializeFilters(filters)).toEqual([
+          {
+            filter: new ApproximateMembershipFilterLazy('http://ex.org/filter1',
+              mediatorRdfMembership, mediatorRdfDereference),
+            variable: 'http://ex.org/var',
+          },
+        ]);
+      });
+    });
+
     it('should test', () => {
       return expect(actor.test({ pageUrl: '', metadata: input })).resolves.toBeTruthy();
     });
 
     it('should run', () => {
       return expect(actor.run({ pageUrl: '', metadata: input })).resolves
-        .toEqual({ metadata: { membershipFilters: {} }});
+        .toEqual({ metadata: { approximateMembershipFilters: [] }});
     });
   });
 });

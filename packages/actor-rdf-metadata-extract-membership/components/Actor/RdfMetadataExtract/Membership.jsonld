@@ -11,9 +11,34 @@
       "extends": "cbrme:Actor/RdfMetadataExtract",
       "requireElement": "ActorRdfMetadataExtractMembership",
       "comment": "A comunica Membership RDF Metadata Extract Actor.",
+      "parameters": [
+        {
+          "@id": "carmem:mediatorRdfMembership",
+          "comment": "The RDF membership filter mediator",
+          "required": true,
+          "unique": true
+        },
+        {
+          "@id": "carmem:mediatorRdfDereference",
+          "comment": "The RDF Dereference mediator",
+          "required": true,
+          "unique": true
+        }
+      ],
       "constructorArguments": [
         {
-          "extends": "cbrme:Actor/RdfMetadataExtract/constructorArgumentsObject"
+          "@id": "carmem:Actor/RdfMetadataExtract/Membership/constructorArgumentsObject",
+          "extends": "cbrme:Actor/RdfMetadataExtract/constructorArgumentsObject",
+          "fields": [
+            {
+              "keyRaw": "mediatorRdfMembership",
+              "value": "carmem:mediatorRdfMembership"
+            },
+            {
+              "keyRaw": "mediatorRdfDereference",
+              "value": "carmem:mediatorRdfDereference"
+            }
+          ]
         }
       ]
     }
