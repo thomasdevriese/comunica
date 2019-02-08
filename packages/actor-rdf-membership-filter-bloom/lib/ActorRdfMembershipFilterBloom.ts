@@ -19,15 +19,15 @@ export class ActorRdfMembershipFilterBloom extends ActorRdfMembershipFilterTyped
 
   public async test(action: IActionRdfMembershipFilter): Promise<IActorTest> {
     await super.test(action);
-    if (!action.properties[ActorRdfMembershipFilterBloom.MEM_FILTER]) {
+    if (!(ActorRdfMembershipFilterBloom.MEM_FILTER in action.properties)) {
       throw new Error('Missing membership filter filter param in a bloom filter action: '
         + require('util').inspect(action));
     }
-    if (!action.properties[ActorRdfMembershipFilterBloom.MEM_HASHES]) {
+    if (!(ActorRdfMembershipFilterBloom.MEM_HASHES in action.properties)) {
       throw new Error('Missing membership filter hashes param in a bloom filter action: '
         + require('util').inspect(action));
     }
-    if (!action.properties[ActorRdfMembershipFilterBloom.MEM_BITS]) {
+    if (!(ActorRdfMembershipFilterBloom.MEM_BITS in action.properties)) {
       throw new Error('Missing membership filter bits param in a bloom filter action: '
         + require('util').inspect(action));
     }

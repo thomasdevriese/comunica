@@ -17,7 +17,7 @@ export class ActorRdfMembershipFilterGcs extends ActorRdfMembershipFilterTyped {
 
   public async test(action: IActionRdfMembershipFilter): Promise<IActorTest> {
     await super.test(action);
-    if (!action.properties[ActorRdfMembershipFilterGcs.MEM_FILTER]) {
+    if (!(ActorRdfMembershipFilterGcs.MEM_FILTER in action.properties)) {
       throw new Error('Missing membership filter filter param in a GCS filter action: '
         + require('util').inspect(action));
     }
