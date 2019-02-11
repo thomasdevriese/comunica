@@ -6,6 +6,7 @@ import {
   IActorQueryOperationOutput,
   IActorQueryOperationOutputBindings,
   IActorQueryOperationTypedMediatedArgs,
+  KEY_CONTEXT_PARENTMETADATA,
 } from "@comunica/bus-query-operation";
 import {ActionContext, IActorTest} from "@comunica/core";
 import {EmptyIterator, MultiTransformIterator} from "asynciterator";
@@ -220,8 +221,9 @@ export class ActorQueryOperationBgpLeftDeepSmallest extends ActorQueryOperationT
       async (patterns: Algebra.Pattern[]) => {
         // Send the materialized patterns to the mediator for recursive BGP evaluation.
         const operation: Algebra.Bgp = { type: 'bgp', patterns };
-        return ActorQueryOperation.getSafeBindings(await this.mediatorQueryOperation.mediate({ operation, context }))
-          .bindingsStream;
+        const subContext = context && context.set(KEY_CONTEXT_PARENTMETADATA, metadatas[smallestId]);
+        return ActorQueryOperation.getSafeBindings(await this.mediatorQueryOperation.mediate(
+          { operation, context: subContext })).bindingsStream;
       });
 
     // Prepare variables and metadata

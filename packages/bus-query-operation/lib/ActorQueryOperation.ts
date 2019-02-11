@@ -162,3 +162,9 @@ export interface IActorQueryOperationOutputBoolean extends IActorQueryOperationO
   booleanResult: Promise<boolean>;
 
 }
+
+/**
+ * @type {string} Context entry for parent metadata.
+ * @value {any} A metadata hash.
+ */
+export const KEY_CONTEXT_PARENTMETADATA: string = '@comunica/bus-query-operation:parentMetadata';
