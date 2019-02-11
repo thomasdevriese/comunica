@@ -1,4 +1,4 @@
-import {Actor, IAction, IActorArgs, IActorOutput, IActorTest} from "@comunica/core";
+import {ActionContext, Actor, IAction, IActorArgs, IActorOutput, IActorTest} from "@comunica/core";
 import * as RDF from "rdf-js";
 
 /**
@@ -46,7 +46,8 @@ export interface IApproximateMembershipFilter {
   /**
    * An approximate filter function.
    * @param {Term} term An RDF Term.
+   * @param {ActionContext} context The action context.
    * @return {boolean} True if the term is probably in the dataset, false if the term is definitely not in the dataset.
    */
-  filter(term: RDF.Term): Promise<boolean>;
+  filter(term: RDF.Term, context: ActionContext): Promise<boolean>;
 }

@@ -1,7 +1,7 @@
 import {IActionRdfDereference, IActorRdfDereferenceOutput} from "@comunica/bus-rdf-dereference";
 import {IApproximateMembershipFilter} from "@comunica/bus-rdf-membership-filter";
 import {IActionRdfMembershipFilter, IActorRdfMembershipFilterOutput} from "@comunica/bus-rdf-membership-filter";
-import {Actor, IActorTest, Mediator} from "@comunica/core";
+import {Actor, ActionContext, IActorTest, Mediator} from "@comunica/core";
 import * as RDF from "rdf-js";
 import {ActorRdfMetadataExtractMembership} from "./ActorRdfMetadataExtractMembership";
 
@@ -31,10 +31,10 @@ export class ApproximateMembershipFilterLazy implements IApproximateMembershipFi
     this.filterInstance = null;
   }
 
-  public async filter(term: RDF.Term): Promise<boolean> {
+  public async filter(term: RDF.Term, context: ActionContext): Promise<boolean> {
     if (!this.filterInstance) {
       this.filterInstance = new Promise<IApproximateMembershipFilter>(async (resolve, reject) => {
-        const { quads } = await this.mediatorRdfDereference.mediate({ url: this.filterUri });
+        const { quads } = await this.mediatorRdfDereference.mediate({ url: this.filterUri, context });
         const filterProps: any = {};
         const filters = { [this.filterUri]: filterProps };
         await ActorRdfMetadataExtractMembership.detectMembershipProperties(quads, filters);
@@ -51,7 +51,7 @@ export class ApproximateMembershipFilterLazy implements IApproximateMembershipFi
         }
       });
     }
-    return (await this.filterInstance).filter(term);
+    return (await this.filterInstance).filter(term, context);
   }
 
 }

@@ -58,7 +58,7 @@ export class ActorQueryOperationQuadpatternMembershipFilter extends ActorQueryOp
     // If we have a *non-match*, we are certain that the pattern has *no* matches.
     for (const { filter, variable } of filters) {
       const term = pattern[this.termUriMapper[variable]];
-      if (!await filter.filter(term)) {
+      if (!await filter.filter(term, context)) {
         this.logInfo(context, `True negative for AMF`, { pattern });
         return <IActorQueryOperationOutputBindings> {
           bindingsStream: new EmptyIterator(),
