@@ -164,7 +164,17 @@ export interface IActorQueryOperationOutputBoolean extends IActorQueryOperationO
 }
 
 /**
- * @type {string} Context entry for parent metadata.
+ * @type {string} Context entry for an array of parent metadata.
+ *                I.e., an array of the metadata that was present before materializing the current BGP operations.
+ *                This can be passed in 'bgp' actions.
+ *                The array entries should correspond to the pattern entries in the BGP.
  * @value {any} A metadata hash.
  */
-export const KEY_CONTEXT_PARENTMETADATA: string = '@comunica/bus-query-operation:parentMetadata';
+export const KEY_CONTEXT_BGP_PARENTMETADATA: string = '@comunica/bus-query-operation:bgpParentMetadata';
+/**
+ * @type {string} Context entry for parent metadata.
+ *                I.e., the metadata that was present before materializing the current operation.
+ *                This can be passed in 'pattern' actions.
+ * @value {any} A metadata hash.
+ */
+export const KEY_CONTEXT_PATTERN_PARENTMETADATA: string = '@comunica/bus-query-operation:patternParentMetadata';
