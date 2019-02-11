@@ -9,8 +9,12 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-rdf-membership-filter-bloom/^1.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-rdf-membership-filter-gcs/^1.0.0/components/context.jsonld",
 
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-query-operation/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-query-operation-quadpattern-membership-filter/^1.0.0/components/context.jsonld",
+
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-dereference/^1.0.0/components/context.jsonld",
 
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-number/^1.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-race/^1.0.0/components/context.jsonld"
   ],
   "@id": "urn:comunica:my",
@@ -36,6 +40,17 @@
     {
       "@id": "config-sets:rdf-membership-filter.json#myGcsFilter",
       "@type": "ActorRdfMembershipFilterGcs"
+    },
+    {
+      "@id": "config-sets:rdf-membership-filter.json#myMinusQueryOperator",
+      "@type": "ActorQueryOperationQuadpatternMembershipFilter",
+      "cbqo:mediatorQueryOperation": {
+        "@id": "config-sets:rdf-membership-filter.json#mediatorQueryOperation",
+        "@type": "MediatorNumberMin",
+        "field": "httpRequests",
+        "ignoreErrors": true,
+        "cc:Mediator/bus": { "@id": "cbqo:Bus/QueryOperation" }
+      }
     }
   ]
 }

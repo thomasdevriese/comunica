@@ -77,6 +77,7 @@
     "@comunica/actor-query-operation-path-zero-or-one": "^1.4.5",
     "@comunica/actor-query-operation-project": "^1.4.4",
     "@comunica/actor-query-operation-quadpattern": "^1.5.4",
+    "@comunica/actor-query-operation-quadpattern-membership-filter": "^1.0.0",
     "@comunica/actor-query-operation-reduced-hash": "^1.4.5",
     "@comunica/actor-query-operation-service": "^1.4.4",
     "@comunica/actor-query-operation-slice": "^1.4.4",
