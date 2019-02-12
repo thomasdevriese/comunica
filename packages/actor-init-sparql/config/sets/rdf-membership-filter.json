@@ -11,6 +11,7 @@
 
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-query-operation/^1.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-query-operation-quadpattern-membership-filter/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-query-operation-bgp-membership-filter/^1.0.0/components/context.jsonld",
 
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-dereference/^1.0.0/components/context.jsonld",
 
@@ -42,7 +43,7 @@
       "@type": "ActorRdfMembershipFilterGcs"
     },
     {
-      "@id": "config-sets:rdf-membership-filter.json#myMinusQueryOperator",
+      "@id": "config-sets:rdf-membership-filter.json#myTripleMembershipFilterOperator",
       "@type": "ActorQueryOperationQuadpatternMembershipFilter",
       "cbqo:mediatorQueryOperation": {
         "@id": "config-sets:rdf-membership-filter.json#mediatorQueryOperation",
@@ -51,6 +52,11 @@
         "ignoreErrors": true,
         "cc:Mediator/bus": { "@id": "cbqo:Bus/QueryOperation" }
       }
+    },
+    {
+      "@id": "config-sets:rdf-membership-filter.json#myBgpMembershipFilterOperator",
+      "@type": "ActorQueryOperationBgpMembershipFilter",
+      "cbqo:mediatorQueryOperation": { "@id": "config-sets:rdf-membership-filter.json#mediatorQueryOperation" }
     }
   ]
 }
