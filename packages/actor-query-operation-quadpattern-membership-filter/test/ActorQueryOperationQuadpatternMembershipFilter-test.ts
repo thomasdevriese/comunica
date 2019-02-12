@@ -95,7 +95,7 @@ describe('ActorQueryOperationQuadpatternMembershipFilter', () => {
       return expect(actor.test(op)).resolves.toBeTruthy();
     });
 
-    it('should test on a quadpattern with variables', () => {
+    it('should not test on a quadpattern with variables', () => {
       const operation = {
         graph: namedNode('g'),
         object: namedNode('o'),
@@ -120,7 +120,7 @@ describe('ActorQueryOperationQuadpatternMembershipFilter', () => {
         new Error('Actor actor can only handle patterns without variables.'));
     });
 
-    it('should test on a quadpattern without variables and 0 membership filters', () => {
+    it('should not test on a quadpattern without variables and 0 membership filters', () => {
       const operation = {
         graph: namedNode('g'),
         object: namedNode('o'),
@@ -138,7 +138,7 @@ describe('ActorQueryOperationQuadpatternMembershipFilter', () => {
         new Error('Actor actor requires approximate membership filter metadata.'));
     });
 
-    it('should test on a quadpattern without variables and no membership filter metadata', () => {
+    it('should not test on a quadpattern without variables and no membership filter metadata', () => {
       const operation = {
         graph: namedNode('g'),
         object: namedNode('o'),
@@ -154,7 +154,7 @@ describe('ActorQueryOperationQuadpatternMembershipFilter', () => {
         new Error('Actor actor requires approximate membership filter metadata.'));
     });
 
-    it('should test on a quadpattern without variables and no metadata', () => {
+    it('should not test on a quadpattern without variables and no metadata', () => {
       const operation = {
         graph: namedNode('g'),
         object: namedNode('o'),
@@ -168,7 +168,7 @@ describe('ActorQueryOperationQuadpatternMembershipFilter', () => {
         new Error('Actor actor requires a context with an entry @comunica/bus-query-operation:patternParentMetadata.'));
     });
 
-    it('should test on a quadpattern without variables and no context', () => {
+    it('should not test on a quadpattern without variables and no context', () => {
       const operation = {
         graph: namedNode('g'),
         object: namedNode('o'),
@@ -257,6 +257,12 @@ describe('ActorQueryOperationQuadpatternMembershipFilter', () => {
       const context = ActionContext({
         [KEY_CONTEXT_PATTERN_PARENTMETADATA]: {
           approximateMembershipFilters: [
+            {
+              filter: {
+                filter: () => true,
+              },
+              variable: subjectUri,
+            },
             {
               filter: {
                 filter: () => false,
