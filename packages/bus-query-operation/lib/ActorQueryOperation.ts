@@ -96,6 +96,17 @@ export abstract class ActorQueryOperation extends Actor<IActionQueryOperation, I
   }
 
   /**
+   * Safely cast a query operation output to an update output.
+   * This will throw a runtime error if the output is of the incorrect type.
+   * @param {IActorQueryOperationOutput} output A query operation output.
+   * @return {IActorQueryOperationOutputUpdate} An update query operation output.
+   */
+  public static getSafeUpdate(output: IActorQueryOperationOutput): IActorQueryOperationOutputUpdate {
+    ActorQueryOperation.validateQueryOutput(output, 'update');
+    return <IActorQueryOperationOutputUpdate> output;
+  }
+
+  /**
    * Convert a metadata callback to a lazy callback where the response value is cached.
    * @param {() => Promise<{[p: string]: any}>} metadata A metadata callback
    * @return {() => Promise<{[p: string]: any}>} The callback where the response will be cached.
@@ -193,12 +204,14 @@ export interface IActionQueryOperation extends IAction {
 
 /**
  * Query operation output.
- * @see IActorQueryOperationOutputBindings, IActorQueryOperationOutputQuads, IActorQueryOperationOutputBoolean
+ * @see IActorQueryOperationOutputBindings, IActorQueryOperationOutputQuads, IActorQueryOperationOutputBoolean,
+ * IActorQueryOperationOutputUpdate
  */
 export type IActorQueryOperationOutput =
   IActorQueryOperationOutputStream |
   IActorQueryOperationOutputQuads |
-  IActorQueryOperationOutputBoolean;
+  IActorQueryOperationOutputBoolean |
+  IActorQueryOperationOutputUpdate;
 export interface IActorQueryOperationOutputBase {
   /**
    * The type of output.
@@ -291,6 +304,27 @@ export interface IActorQueryOperationOutputBoolean extends IActorQueryOperationO
    */
   booleanResult: Promise<boolean>;
 
+}
+
+export interface IActorQueryOperationOutputUpdate extends IActorQueryOperationOutputBase {
+  /**
+   * The type of output.
+   */
+  type: 'update';
+  /**
+   * A promise resolving when the update has finished.
+   */
+  updateResult: Promise<void>;
+  /**
+   * The stream of quads that were inserted.
+   * Undefined if the operation did not have to insert anything.
+   */
+  quadStreamInserted?: RDF.Stream & AsyncIterator<RDF.Quad>;
+  /**
+   * The stream of quads that were deleted.
+   * Undefined if the operation did not have to delete anything.
+   */
+  quadStreamDeleted?: RDF.Stream & AsyncIterator<RDF.Quad>;
 }
 
 /**
