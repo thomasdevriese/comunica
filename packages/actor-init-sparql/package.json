@@ -110,6 +110,7 @@
     "@comunica/actor-rdf-resolve-quad-pattern-federated": "^1.19.2",
     "@comunica/actor-rdf-resolve-quad-pattern-hypermedia": "^1.19.2",
     "@comunica/actor-rdf-resolve-quad-pattern-rdfjs-source": "^1.19.2",
+    "@comunica/actor-rdf-resolve-quad-pattern-solid-amf": "^1.0.0",
     "@comunica/actor-rdf-serialize-jsonld": "^1.19.2",
     "@comunica/actor-rdf-serialize-n3": "^1.19.2",
     "@comunica/actor-sparql-parse-algebra": "^1.19.2",

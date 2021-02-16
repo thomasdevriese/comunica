@@ -11,6 +11,7 @@
   "@type": "Runner",
   "import": [
     "files-cais:config/sets/join.json",
+    "files-cais:config/sets/resolve-solid-amf.json",
     "files-cais:config/sets/resolve-federated.json",
     "files-cais:config/sets/resolve-rdfjs.json",
     "files-cais:config/sets/rdf-serializers.json",

@@ -28,6 +28,7 @@
     "arrayify-stream": "^1.0.0",
     "asynciterator": "^3.0.3",
     "babel-loader": "^8.1.0",
+    "bloem": "^0.2.4",
     "coveralls": "^3.0.0",
     "eslint": "^7.9.0",
     "eslint-config-es": "3.28.1",
@@ -74,7 +75,9 @@
       "ts",
       "js"
     ],
-    "setupFilesAfterEnv": [ "./setup-jest.js" ],
+    "setupFilesAfterEnv": [
+      "./setup-jest.js"
+    ],
     "collectCoverage": true,
     "coveragePathIgnorePatterns": [
       "/node_modules/",

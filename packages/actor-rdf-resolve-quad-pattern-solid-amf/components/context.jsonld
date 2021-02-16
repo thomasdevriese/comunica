@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/core/^1.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "carrqpsa": "npmd:@comunica/actor-rdf-resolve-quad-pattern-solid-amf/",
+      "files-carrqpsa": "carrqpsa:^1.0.0/",
+
+      "ActorRdfResolveQuadPatternSolidAmf": "carrqpsa:Actor/RdfResolveQuadPattern/SolidAmf"
+    }
+  ]
+}

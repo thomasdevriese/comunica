@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-rdf-resolve-quad-pattern-solid-amf/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-rdf-resolve-quad-pattern/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@comunica/actor-rdf-resolve-quad-pattern-solid-amf",
+  "components": [
+    {
+      "@id": "carrqpsa:Actor/RdfResolveQuadPattern/SolidAmf",
+      "@type": "Class",
+      "extends": "cbrrqp:Actor/RdfResolveQuadPattern",
+      "requireElement": "ActorRdfResolveQuadPatternSolidAmf",
+      "comment": "An actor for processing Approximate Membership Filters to enable efficient querying over Solid pods",
+      "parameters": [
+        {
+          "@id": "carrqpsa:Actor/RdfResolveQuadPattern/SolidAmf/mediatorResolveQuadPattern",
+          "comment": "The quad pattern resolve mediator",
+          "required": true,
+          "unique": true
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "carrqpsa:Actor/RdfResolveQuadPattern/SolidAmf/constructorArgumentsObject",
+          "extends": "cbrrqp:Actor/RdfResolveQuadPattern/constructorArgumentsObject",
+          "fields": [
+            {
+              "keyRaw": "mediatorResolveQuadPattern",
+              "value": "carrqpsa:Actor/RdfResolveQuadPattern/SolidAmf/mediatorResolveQuadPattern"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
