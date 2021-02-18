@@ -38,39 +38,36 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
     const sources = this.getContextSources(action.context);
     let sourcesFiltered: IDataSource[] = [];
     const terms = ['subject', 'predicate', 'object'];
-    const containsOnlyVariables = (action.pattern.subject.termType === "Variable" && action.pattern.predicate.termType === "Variable" && action.pattern.object.termType === "Variable");
     sources?.forEach((source: any) => {
-      if(containsOnlyVariables) {
-        sourcesFiltered.push(source.value);
-      } else {
-        const summaryFolder = source.context.summary;
-        const name = source.context.name;
-        const probability = source.context.probability.toString().replace('.','_');
-        if(fs.existsSync(summaryFolder)) {
-          for (const term of terms) {
-            const summaryName = `${name}.${probability}.${term}.BloomFilter.json`;
-            const summaryPath = path.join(summaryFolder, summaryName);
-            if(fs.existsSync(summaryPath)) {
-              if(action.pattern[term].termType !== 'Variable') {
-                const summary = JSON.parse(fs.readFileSync(summaryPath).toString());
-                const buffer = Buffer.from(summary.filter, 'base64');
-                const bloom = new Bloem(summary.m, summary.k, buffer);
-                let searchString = action.pattern[term].termType === "Literal" ? '"' : '';
-                searchString += `${action.pattern[term].value}${action.pattern[term].termType === "Literal" ? '"' : ''}`;
-                searchString += `${(action.pattern[term].termType === "Literal" && action.pattern[term].language) ? `@${action.pattern[term].language}` : ''}`;
-                
-                if(bloom.has(Buffer.from(searchString))) {
-                  sourcesFiltered.push(source.value);
-                  break;
-                }
+      const summaryFolder = source.context.summary;
+      const name = source.context.name;
+      const probability = source.context.probability.toString().replace('.','_');
+      if(fs.existsSync(summaryFolder)) {
+        let addSource = true;
+        for (const term of terms) {
+          const summaryName = `${name}.${probability}.${term}.BloomFilter.json`;
+          const summaryPath = path.join(summaryFolder, summaryName);
+          if(fs.existsSync(summaryPath)) {
+            if(action.pattern[term].termType !== 'Variable') {
+              const summary = JSON.parse(fs.readFileSync(summaryPath).toString());
+              const buffer = Buffer.from(summary.filter, 'base64');
+              const bloom = new Bloem(summary.m, summary.k, buffer);
+              let searchString = action.pattern[term].termType === "Literal" ? '"' : '';
+              searchString += `${action.pattern[term].value}${action.pattern[term].termType === "Literal" ? '"' : ''}`;
+              searchString += `${(action.pattern[term].termType === "Literal" && action.pattern[term].language) ? `@${action.pattern[term].language}` : ''}`;
+              
+              if(!bloom.has(Buffer.from(searchString))) {
+                addSource = false;
               }
-            } else {
-              throw new Error(`Summary file ${summaryName} doesn't exist.`);
             }
-          };
-        } else {
-          throw new Error(`Summary folder ${summaryFolder} doesn't exist.`);
+          } else {
+            throw new Error(`Summary file ${summaryName} doesn't exist.`);
+          }
         }
+        if(addSource)
+          sourcesFiltered.push(source.value);
+      } else {
+        throw new Error(`Summary folder ${summaryFolder} doesn't exist.`);
       }
     });
     console.log("Filtered sources array:");
