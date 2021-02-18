@@ -47,7 +47,7 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
         const name = source.context.name;
         const probability = source.context.probability.toString().replace('.','_');
         if(fs.existsSync(summaryFolder)) {
-          terms.forEach((term) => {
+          for (const term of terms) {
             const summaryName = `${name}.${probability}.${term}.BloomFilter.json`;
             const summaryPath = path.join(summaryFolder, summaryName);
             if(fs.existsSync(summaryPath)) {
@@ -61,12 +61,13 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
                 
                 if(bloom.has(Buffer.from(searchString))) {
                   sourcesFiltered.push(source.value);
+                  break;
                 }
               }
             } else {
               throw new Error(`Summary file ${summaryName} doesn't exist.`);
             }
-          });
+          };
         } else {
           throw new Error(`Summary folder ${summaryFolder} doesn't exist.`);
         }
