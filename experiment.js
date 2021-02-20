@@ -6,7 +6,7 @@ const myEngine = newEngine();
 
 async function init() {
   let sources = [];
-  const file = process.argv[2] || './sources/persons_1500';
+  const file = process.argv[2] || './sources/SF_0.1_filepaths.txt';
   const probability = parseFloat(process.argv[3]) || 0.001;
   const baseUrl = 'http://192.168.1.55:3000';
 
@@ -21,9 +21,9 @@ async function init() {
   PREFIX dbpedia: <${baseUrl}/dbpedia.org/resource/>
   PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
-  SELECT * WHERE
-  {
-    ?person snvoc:firstName "Thomas" .
+  SELECT * WHERE {
+    ?person snvoc:isLocatedIn ?city .
+    ?city foaf:name "Brussels" .
   }
   `;
 
@@ -31,20 +31,28 @@ async function init() {
     input: fs.createReadStream(file)
   });
 
+  const patternPath = /out-fragments\/http\/192\.168\.1\.55_3000\/(.*).nq/;
+  const patternName = /\/([^\/]+)\.nq/;
+  let counter = 0;
   readInterface.on('line', (line) => {
+    const matchesPath = line.match(patternPath);
+    const matchesName = line.match(patternName);
     sources.push({
-      value: `${baseUrl}/www.ldbc.eu/ldbc_socialnet/1.0/data/${line}`,
+      value: `${baseUrl}/${matchesPath[1]}`,
       context: {
-        summary: `${__dirname}/summaries/${line}`,
-        name: line,
+        summary: `${__dirname}/summaries/${matchesName[1]}`,
+        name: matchesName[1],
         probability: probability
       }
     });
+    readline.clearLine(process.stdout, 0);
+    readline.cursorTo(process.stdout, 0);
+    process.stdout.write(`Source ${++counter} pushed into array`);
   });
 
   readInterface.on('close', () => {
     console.log(sources);
-    executeQuery(query, sources);
+    // executeQuery(query, sources);
   });
 }
 
