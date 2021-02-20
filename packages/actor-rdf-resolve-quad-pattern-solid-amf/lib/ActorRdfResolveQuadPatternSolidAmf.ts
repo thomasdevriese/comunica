@@ -70,7 +70,7 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
         throw new Error(`Summary folder ${summaryFolder} doesn't exist.`);
       }
     });
-    console.log("Filtered sources array:");
+    console.log(`Filtered sources array (${sourcesFiltered.length} sources):`);
     console.log(sourcesFiltered);    
     action.context = action.context?.set(KEY_CONTEXT_AMF_EXECUTED, true)
                                    .set(KEY_CONTEXT_SOURCES, sourcesFiltered);
