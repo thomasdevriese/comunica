@@ -14,7 +14,7 @@ const myEngine = newEngine();
 async function init() {
   let sources = [];
   const scalefactor = process.argv[2] || '0.1';
-  const file = `./sources/SF_${scalefactor}_filepaths.txt`;
+  const file = path.join('C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\amf\\sources',`SF_${scalefactor}_filepaths.txt`);
   const probability = process.argv[3] ?  parseFloat(process.argv[3]) : 0.001;
   const baseUrl = 'http://192.168.1.55:3000';
 
