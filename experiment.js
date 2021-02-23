@@ -1,13 +1,21 @@
+/*
+
+USAGE: node experiment [scalefactor] [probability]
+
+*/
+
 const newEngine = require('@comunica/actor-init-sparql').newEngine;
 const readline = require('readline');
 const fs = require('fs');
+const path = require('path');
 
 const myEngine = newEngine();
 
 async function init() {
   let sources = [];
-  const file = process.argv[2] || './sources/SF_0.1_filepaths.txt';
-  const probability = parseFloat(process.argv[3]) || 0.001;
+  const scalefactor = process.argv[2] || '0.1';
+  const file = `./sources/SF_${scalefactor}_filepaths.txt`;
+  const probability = process.argv[3] ?  parseFloat(process.argv[3]) : 0.001;
   const baseUrl = 'http://192.168.1.55:3000';
 
   const query = `
@@ -40,19 +48,20 @@ async function init() {
     sources.push({
       value: `${baseUrl}/${matchesPath[1]}`,
       context: {
-        summary: `${__dirname}/summaries/${matchesName[1]}`,
+        summary: path.join(`C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\amf\\summaries_SF_${scalefactor}`, matchesName[1]),
         name: matchesName[1],
         probability: probability
       }
     });
-    readline.clearLine(process.stdout, 0);
-    readline.cursorTo(process.stdout, 0);
-    process.stdout.write(`Source ${++counter} pushed into array`);
+    if((++counter % 1000) === 0) {
+      readline.clearLine(process.stdout, 0);
+      readline.cursorTo(process.stdout, 0);
+      process.stdout.write(`${counter/1000}K sources pushed into array`);
+    }
   });
 
   readInterface.on('close', () => {
-    console.log(sources);
-    // executeQuery(query, sources);
+    executeQuery(query, sources);
   });
 }
 
