@@ -45,7 +45,8 @@ export default class Requester {
     }
     settings.headers = headersObject;
 
-    const request: ClientRequest = requester.request(settings, (response: IncomingMessage) => {
+    // const request: ClientRequest = requester.request(settings, (response: IncomingMessage) => {
+    const request: ClientRequest = requester.request(settings.url, (response: IncomingMessage) => {
       response = this.decode(response);
       settings.headers = response.headers;
       response.setEncoding('utf8');

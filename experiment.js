@@ -14,7 +14,7 @@ const myEngine = newEngine();
 async function init() {
   let sources = [];
   const scalefactor = process.argv[2] || '0.1';
-  const file = path.join('C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\amf\\sources',`SF_${scalefactor}_filepaths.txt`);
+  const file = path.join('C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\experiments\\ldbc-snb-decentralized',`SF_${scalefactor}_filepaths_test.txt`);
   const probability = process.argv[3] ?  parseFloat(process.argv[3]) : 0.001;
   const baseUrl = 'http://192.168.1.55:3000';
 
@@ -29,9 +29,12 @@ async function init() {
   PREFIX dbpedia: <${baseUrl}/dbpedia.org/resource/>
   PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
-  SELECT * WHERE {
+  SELECT ?voornaam ?stad WHERE {
+    ?person snvoc:firstName ?voornaam .
     ?person snvoc:isLocatedIn ?city .
-    ?city foaf:name "Brussels" .
+    ?city foaf:name ?stad .
+    ?city snvoc:isPartOf ?country .
+    ?country foaf:name "Belgium" .
   }
   `;
 
@@ -48,7 +51,7 @@ async function init() {
     sources.push({
       value: `${baseUrl}/${matchesPath[1]}`,
       context: {
-        summary: path.join(`C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\amf\\summaries_SF_${scalefactor}`, matchesName[1]),
+        summary: path.join(`C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\amf\\summaries_SF_${scalefactor}_test`, matchesName[1]),
         name: matchesName[1],
         probability: probability
       }
@@ -61,6 +64,7 @@ async function init() {
   });
 
   readInterface.on('close', () => {
+    process.stdout.write('\n');
     executeQuery(query, sources);
   });
 }
@@ -70,8 +74,8 @@ async function executeQuery(query, sources) {
     sources: sources
   });
 
-  // let { data } = await myEngine.resultToString(result, 'stats');
-  let { data } = await myEngine.resultToString(result, 'table');
+  let { data } = await myEngine.resultToString(result, 'stats');
+  // let { data } = await myEngine.resultToString(result, 'table');
   data.pipe(process.stdout);
 
   result.bindingsStream.on('end', () => {

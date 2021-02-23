@@ -7,6 +7,7 @@ import type { ActionContext, Actor, IActorArgs, IActorTest, Mediator } from '@co
 import * as fs from 'fs';
 import * as path from 'path';
 const Bloem = require('bloem').Bloem;
+const readline = require('readline');
 
 const KEY_CONTEXT_AMF_EXECUTED = '@comunica/bus-rdf-resolve-quad-pattern:amf-executed';
 
@@ -38,6 +39,7 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
     const sources = this.getContextSources(action.context);
     let sourcesFiltered: IDataSource[] = [];
     const terms = ['subject', 'predicate', 'object'];
+    let counter = 0;
     sources?.forEach((source: any) => {
       const summaryFolder = source.context.summary;
       const name = source.context.name;
@@ -69,8 +71,13 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
       } else {
         throw new Error(`Summary folder ${summaryFolder} doesn't exist.`);
       }
+      if((++counter % 1000) === 0) {
+        readline.clearLine(process.stdout, 0);
+        readline.cursorTo(process.stdout, 0);
+        process.stdout.write(`${counter/1000}K summaries checked`);
+      }
     });
-    console.log(`Filtered sources array (${sourcesFiltered.length} sources):`);
+    console.log(`\nFiltered sources array (${sourcesFiltered.length} sources):`);
     console.log(sourcesFiltered);    
     action.context = action.context?.set(KEY_CONTEXT_AMF_EXECUTED, true)
                                    .set(KEY_CONTEXT_SOURCES, sourcesFiltered);
