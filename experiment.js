@@ -12,6 +12,7 @@ const path = require('path');
 const myEngine = newEngine();
 
 async function init() {
+  console.time("Timer");
   let sources = [];
   const scalefactor = process.argv[2] || '0.1';
   const file = path.join('C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\experiments\\ldbc-snb-decentralized',`SF_${scalefactor}_filepaths_test.txt`);
@@ -29,12 +30,8 @@ async function init() {
   PREFIX dbpedia: <${baseUrl}/dbpedia.org/resource/>
   PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
-  SELECT ?voornaam ?stad WHERE {
-    ?person snvoc:firstName ?voornaam .
-    ?person snvoc:isLocatedIn ?city .
-    ?city foaf:name ?stad .
-    ?city snvoc:isPartOf ?country .
-    ?country foaf:name "Belgium" .
+  SELECT * WHERE {
+    ?person snvoc:firstName "Tom" .
   }
   `;
 
@@ -79,7 +76,7 @@ async function executeQuery(query, sources) {
   data.pipe(process.stdout);
 
   result.bindingsStream.on('end', () => {
-    
+    console.timeEnd("Timer");
   });
 
   result.bindingsStream.on('error', (error) => {
