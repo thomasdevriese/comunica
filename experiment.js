@@ -8,11 +8,18 @@ const newEngine = require('@comunica/actor-init-sparql').newEngine;
 const readline = require('readline');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 const myEngine = newEngine();
+let startUsage;
+let startTime;
 
 async function init() {
-  console.time("Timer");
+  // Init metrics
+  startTime = Date.now();
+  startUsage = process.cpuUsage();
+  console.time("Query execution time");
+
   let sources = [];
   const scalefactor = process.argv[2] || '0.1';
   const file = path.join('C:\\Users\\thoma\\Documents\\Master\\Masterproef\\Implementatie\\experiments\\ldbc-snb-decentralized',`SF_${scalefactor}_filepaths_test.txt`);
@@ -31,7 +38,8 @@ async function init() {
   PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
   SELECT * WHERE {
-    ?person snvoc:firstName "Tom" .
+    ?person snvoc:id "4398046512492"^^<http://www.w3.org/2001/XMLSchema#long> .
+    ?person snvoc:firstName ?name .
   }
   `;
 
@@ -76,7 +84,15 @@ async function executeQuery(query, sources) {
   data.pipe(process.stdout);
 
   result.bindingsStream.on('end', () => {
-    console.timeEnd("Timer");
+    // Print metrics
+    console.timeEnd("Query execution time");
+    const endTime = Date.now();
+    const cpuUsage = process.cpuUsage(startUsage);
+    const cpuPercentage = 100 * ((cpuUsage.user + cpuUsage.system)/os.cpus().length) /
+      ((endTime - startTime) * 1000);
+    console.log(`CPU load: ${cpuPercentage.toFixed(2)}%`);
+    const memory = process.memoryUsage();
+    console.log(`Memory usage: ${(memory.rss/1024/1024).toFixed(2)} MB`);
   });
 
   result.bindingsStream.on('error', (error) => {

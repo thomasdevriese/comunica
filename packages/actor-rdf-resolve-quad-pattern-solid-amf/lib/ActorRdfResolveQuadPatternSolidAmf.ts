@@ -57,6 +57,7 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
               let searchString = action.pattern[term].termType === "Literal" ? '"' : '';
               searchString += `${action.pattern[term].value}${action.pattern[term].termType === "Literal" ? '"' : ''}`;
               searchString += `${(action.pattern[term].termType === "Literal" && action.pattern[term].language) ? `@${action.pattern[term].language}` : ''}`;
+              searchString += `${(action.pattern[term].termType === "Literal" && action.pattern[term].datatype.value !== 'http://www.w3.org/2001/XMLSchema#string') ? `^^${action.pattern[term].datatype.value}` : ''}`;
               
               if(!bloom.has(Buffer.from(searchString))) {
                 addSource = false;
