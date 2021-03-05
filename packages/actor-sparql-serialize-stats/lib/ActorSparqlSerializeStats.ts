@@ -36,10 +36,12 @@ export class ActorSparqlSerializeStats extends ActorSparqlSerializeFixedMediaTyp
     data.push(`${row}\n`);
   }
 
-  public pushFooter(data: Readable, startTime: [number, number]): void {
-    const footer: string = [ 'TOTAL', this.delay(startTime), this.httpObserver.requests,
-    ].join(',');
-    data.push(`${footer}\n`);
+  public pushFooter(data: Readable, startTime: [number, number], result: number): void {
+    // const footer: string = [ 'TOTAL', this.delay(startTime), this.httpObserver.requests,
+    // ].join(',');
+    data.push(`|\t|\t|\t\t#Results: ${result}\n`);
+    data.push(`|\t|\t|\t\tHTTP requests: ${this.httpObserver.requests}\n`);
+    // data.push(`${footer}\n`);
     data.push(null);
   }
 
@@ -56,12 +58,13 @@ export class ActorSparqlSerializeStats extends ActorSparqlSerializeFixedMediaTyp
 
     // TODO: Make initiation timer configurable
     const startTime = process.hrtime();
-    let result = 1;
+    let result = 0;
 
-    this.pushHeader(data);
+    // this.pushHeader(data);
     resultStream.on('error', error => data.emit('error', error));
-    resultStream.on('data', () => this.pushStat(data, startTime, result++));
-    resultStream.on('end', () => this.pushFooter(data, startTime));
+    // resultStream.on('data', () => this.pushStat(data, startTime, ++result));
+    resultStream.on('data', () => ++result);
+    resultStream.on('end', () => this.pushFooter(data, startTime, result));
 
     return { data };
   }
