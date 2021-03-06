@@ -7,7 +7,6 @@ import type { ActionContext, Actor, IActorArgs, IActorTest, Mediator } from '@co
 import * as fs from 'fs';
 import * as path from 'path';
 const Bloem = require('bloem').Bloem;
-const readline = require('readline');
 
 const KEY_CONTEXT_AMF_EXECUTED = '@comunica/bus-rdf-resolve-quad-pattern:amf-executed';
 

@@ -13,12 +13,13 @@ const os = require('os');
 const myEngine = newEngine();
 let startUsage;
 let startTime;
+let executionStart;
 
 async function init() {
   // Init metrics
   startTime = Date.now();
   startUsage = process.cpuUsage();
-  console.time("Query execution time");
+  executionStart = process.hrtime();
 
   let sources = [];
   const numberOfPersons = process.argv[2] || '10'; // if datasources containing locations must be included, provide '<numberOfPersons>_locations' as argument
@@ -37,9 +38,7 @@ async function init() {
   PREFIX dbpedia: <${baseUrl}/dbpedia.org/resource/>
   PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>\n`;
   const query = process.argv[4] ||
-  `SELECT ?person WHERE {
-    ?person snvoc:firstName "Tom" .
-  }
+  `SELECT ?person WHERE { ?person snvoc:firstName "Tom" . ?person snvoc:gender "male" . }
   `;
   const sparqlQuery = prefixes.concat(query);
 
@@ -49,7 +48,6 @@ async function init() {
 
   const patternPath = /out-fragments\/http\/localhost_3000\/(.*).nq/;
   const patternName = /\/([^\/]+)\.nq/;
-  let counter = 0;
   readInterface.on('line', (line) => {
     const matchesPath = line.match(patternPath);
     const matchesName = line.match(patternName);
@@ -79,15 +77,15 @@ async function executeQuery(sparqlQuery, sources) {
 
   result.bindingsStream.on('end', () => {
     // Print metrics
-    process.stdout.write('|\t|\t|\t\t');
-    console.timeEnd("Query execution time");
+    const executionEnd = process.hrtime(executionStart);
+    console.log(`|\t|\t|\t\tQuery execution time: ${(executionEnd[0] + executionEnd[1]/1e9).toFixed(3)}s`);
     const endTime = Date.now();
     const cpuUsage = process.cpuUsage(startUsage);
     const cpuPercentage = 100 * ((cpuUsage.user + cpuUsage.system)/os.cpus().length) /
       ((endTime - startTime) * 1000);
     console.log(`|\t|\t|\t\tCPU load: ${cpuPercentage.toFixed(2)}%`);
     const memory = process.memoryUsage();
-    console.log(`|\t|\t|\t\tMemory usage: ${(memory.rss/1024/1024).toFixed(2)} MB\n|\t|\t|`);
+    console.log(`|\t|\t|\t\tMemory usage: ${(memory.rss/1024/1024).toFixed(2)} MB`);
   });
 
   result.bindingsStream.on('error', (error) => {

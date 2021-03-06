@@ -1,0 +1,7041 @@
+Query 1
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.162s
+|	|	|		CPU load: 8.41%
+|	|	|		Memory usage: 65.27 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.182s
+|	|	|		CPU load: 8.54%
+|	|	|		Memory usage: 66.43 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.247s
+|	|	|		CPU load: 9.43%
+|	|	|		Memory usage: 66.11 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.180s
+|	|	|		CPU load: 9.67%
+|	|	|		Memory usage: 65.78 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.190s
+|	|	|		CPU load: 13.36%
+|	|	|		Memory usage: 66.54 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.158s
+|	|	|		CPU load: 12.34%
+|	|	|		Memory usage: 66.14 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.150s
+|	|	|		CPU load: 10.35%
+|	|	|		Memory usage: 66.41 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.155s
+|	|	|		CPU load: 12.58%
+|	|	|		Memory usage: 66.82 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.156s
+|	|	|		CPU load: 8.81%
+|	|	|		Memory usage: 66.74 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 10
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.856s
+|	|	|		CPU load: 11.62%
+|	|	|		Memory usage: 104.64 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.955s
+|	|	|		CPU load: 11.04%
+|	|	|		Memory usage: 103.28 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.954s
+|	|	|		CPU load: 10.24%
+|	|	|		Memory usage: 104.57 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.851s
+|	|	|		CPU load: 11.91%
+|	|	|		Memory usage: 104.45 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.940s
+|	|	|		CPU load: 12.25%
+|	|	|		Memory usage: 104.86 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.890s
+|	|	|		CPU load: 12.08%
+|	|	|		Memory usage: 103.83 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.799s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 103.85 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.793s
+|	|	|		CPU load: 11.56%
+|	|	|		Memory usage: 104.01 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.084s
+|	|	|		CPU load: 10.78%
+|	|	|		Memory usage: 104.34 MB
+|	|	|		#Results: 100
+|	|	|		HTTP requests: 100
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.287s
+|	|	|		CPU load: 8.70%
+|	|	|		Memory usage: 259.97 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.840s
+|	|	|		CPU load: 10.17%
+|	|	|		Memory usage: 260.02 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.861s
+|	|	|		CPU load: 10.52%
+|	|	|		Memory usage: 261.75 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.794s
+|	|	|		CPU load: 10.92%
+|	|	|		Memory usage: 260.15 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.677s
+|	|	|		CPU load: 11.26%
+|	|	|		Memory usage: 260.42 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.092s
+|	|	|		CPU load: 10.21%
+|	|	|		Memory usage: 257.68 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.149s
+|	|	|		CPU load: 9.70%
+|	|	|		Memory usage: 259.69 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.063s
+|	|	|		CPU load: 9.28%
+|	|	|		Memory usage: 260.45 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.953s
+|	|	|		CPU load: 11.11%
+|	|	|		Memory usage: 258.44 MB
+|	|	|		#Results: 500
+|	|	|		HTTP requests: 500
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 10.400s
+|	|	|		CPU load: 10.95%
+|	|	|		Memory usage: 402.88 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 10.113s
+|	|	|		CPU load: 10.35%
+|	|	|		Memory usage: 433.31 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 9.149s
+|	|	|		CPU load: 11.23%
+|	|	|		Memory usage: 401.66 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 8.755s
+|	|	|		CPU load: 11.62%
+|	|	|		Memory usage: 386.07 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 8.328s
+|	|	|		CPU load: 10.72%
+|	|	|		Memory usage: 420.70 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 8.304s
+|	|	|		CPU load: 11.15%
+|	|	|		Memory usage: 422.11 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 9.102s
+|	|	|		CPU load: 10.28%
+|	|	|		Memory usage: 421.69 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 9.190s
+|	|	|		CPU load: 11.30%
+|	|	|		Memory usage: 404.76 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 8.803s
+|	|	|		CPU load: 11.07%
+|	|	|		Memory usage: 384.52 MB
+|	|	|		#Results: 1000
+|	|	|		HTTP requests: 1000
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 22.251s
+|	|	|		CPU load: 11.67%
+|	|	|		Memory usage: 791.52 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 23.229s
+|	|	|		CPU load: 11.75%
+|	|	|		Memory usage: 777.50 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 23.085s
+|	|	|		CPU load: 11.24%
+|	|	|		Memory usage: 786.86 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 23.793s
+|	|	|		CPU load: 11.56%
+|	|	|		Memory usage: 782.16 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 25.697s
+|	|	|		CPU load: 11.70%
+|	|	|		Memory usage: 813.85 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 27.366s
+|	|	|		CPU load: 10.88%
+|	|	|		Memory usage: 789.04 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 27.555s
+|	|	|		CPU load: 11.34%
+|	|	|		Memory usage: 820.85 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 26.738s
+|	|	|		CPU load: 10.93%
+|	|	|		Memory usage: 794.59 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 30.482s
+|	|	|		CPU load: 10.48%
+|	|	|		Memory usage: 802.95 MB
+|	|	|		#Results: 2000
+|	|	|		HTTP requests: 2000
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 62.107s
+|	|	|		CPU load: 11.36%
+|	|	|		Memory usage: 1253.09 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 59.875s
+|	|	|		CPU load: 11.45%
+|	|	|		Memory usage: 1204.91 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 60.057s
+|	|	|		CPU load: 11.38%
+|	|	|		Memory usage: 1367.09 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 60.214s
+|	|	|		CPU load: 11.55%
+|	|	|		Memory usage: 1212.43 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 53.486s
+|	|	|		CPU load: 11.56%
+|	|	|		Memory usage: 1371.03 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 53.695s
+|	|	|		CPU load: 11.79%
+|	|	|		Memory usage: 1326.51 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 55.073s
+|	|	|		CPU load: 11.72%
+|	|	|		Memory usage: 1373.79 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 53.213s
+|	|	|		CPU load: 11.79%
+|	|	|		Memory usage: 1273.28 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 55.323s
+|	|	|		CPU load: 11.66%
+|	|	|		Memory usage: 1375.04 MB
+|	|	|		#Results: 3500
+|	|	|		HTTP requests: 3500
+|	|	|
+Query 2
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.044s
+|	|	|		CPU load: 17.22%
+|	|	|		Memory usage: 62.00 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.043s
+|	|	|		CPU load: 17.90%
+|	|	|		Memory usage: 62.34 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.039s
+|	|	|		CPU load: 14.69%
+|	|	|		Memory usage: 62.45 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.043s
+|	|	|		CPU load: 13.35%
+|	|	|		Memory usage: 62.17 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.042s
+|	|	|		CPU load: 13.35%
+|	|	|		Memory usage: 62.31 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.041s
+|	|	|		CPU load: 9.52%
+|	|	|		Memory usage: 62.41 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.119s
+|	|	|		CPU load: 12.92%
+|	|	|		Memory usage: 64.20 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.110s
+|	|	|		CPU load: 14.08%
+|	|	|		Memory usage: 64.30 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.102s
+|	|	|		CPU load: 13.35%
+|	|	|		Memory usage: 64.19 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.164s
+|	|	|		CPU load: 11.89%
+|	|	|		Memory usage: 65.25 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.167s
+|	|	|		CPU load: 10.49%
+|	|	|		Memory usage: 65.22 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.166s
+|	|	|		CPU load: 14.00%
+|	|	|		Memory usage: 64.59 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.108s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 62.52 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.102s
+|	|	|		CPU load: 13.35%
+|	|	|		Memory usage: 62.36 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.106s
+|	|	|		CPU load: 10.88%
+|	|	|		Memory usage: 62.16 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 0
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.177s
+|	|	|		CPU load: 12.08%
+|	|	|		Memory usage: 67.45 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 5
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.181s
+|	|	|		CPU load: 11.81%
+|	|	|		Memory usage: 67.84 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 5
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.174s
+|	|	|		CPU load: 13.43%
+|	|	|		Memory usage: 68.01 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 5
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.557s
+|	|	|		CPU load: 13.95%
+|	|	|		Memory usage: 73.43 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.455s
+|	|	|		CPU load: 12.86%
+|	|	|		Memory usage: 73.69 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.460s
+|	|	|		CPU load: 11.85%
+|	|	|		Memory usage: 73.54 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.610s
+|	|	|		CPU load: 12.46%
+|	|	|		Memory usage: 77.17 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 14
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.600s
+|	|	|		CPU load: 14.93%
+|	|	|		Memory usage: 76.77 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 14
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.545s
+|	|	|		CPU load: 12.55%
+|	|	|		Memory usage: 77.36 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 14
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.561s
+|	|	|		CPU load: 11.83%
+|	|	|		Memory usage: 79.34 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 16
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.555s
+|	|	|		CPU load: 15.08%
+|	|	|		Memory usage: 78.52 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 16
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.691s
+|	|	|		CPU load: 12.97%
+|	|	|		Memory usage: 77.87 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 16
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.921s
+|	|	|		CPU load: 13.15%
+|	|	|		Memory usage: 78.55 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.893s
+|	|	|		CPU load: 12.46%
+|	|	|		Memory usage: 79.04 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.862s
+|	|	|		CPU load: 12.24%
+|	|	|		Memory usage: 76.18 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.011s
+|	|	|		CPU load: 12.75%
+|	|	|		Memory usage: 83.93 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 37
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.043s
+|	|	|		CPU load: 13.11%
+|	|	|		Memory usage: 83.59 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 37
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.022s
+|	|	|		CPU load: 12.61%
+|	|	|		Memory usage: 83.88 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 37
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.841s
+|	|	|		CPU load: 10.62%
+|	|	|		Memory usage: 77.89 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 33
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.011s
+|	|	|		CPU load: 13.32%
+|	|	|		Memory usage: 77.94 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 33
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.992s
+|	|	|		CPU load: 12.59%
+|	|	|		Memory usage: 77.65 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 33
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.572s
+|	|	|		CPU load: 12.91%
+|	|	|		Memory usage: 78.15 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 22
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.676s
+|	|	|		CPU load: 12.47%
+|	|	|		Memory usage: 79.14 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 22
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.603s
+|	|	|		CPU load: 11.93%
+|	|	|		Memory usage: 77.59 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 22
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.864s
+|	|	|		CPU load: 12.36%
+|	|	|		Memory usage: 91.41 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 62
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.850s
+|	|	|		CPU load: 12.77%
+|	|	|		Memory usage: 91.38 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 62
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.848s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 91.18 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 62
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.916s
+|	|	|		CPU load: 13.04%
+|	|	|		Memory usage: 93.16 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 71
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.063s
+|	|	|		CPU load: 11.73%
+|	|	|		Memory usage: 91.90 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 71
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.973s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 93.47 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 71
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.632s
+|	|	|		CPU load: 12.61%
+|	|	|		Memory usage: 80.25 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 34
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.369s
+|	|	|		CPU load: 12.86%
+|	|	|		Memory usage: 80.25 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 34
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.373s
+|	|	|		CPU load: 12.92%
+|	|	|		Memory usage: 80.45 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 34
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.994s
+|	|	|		CPU load: 12.79%
+|	|	|		Memory usage: 105.27 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 106
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.876s
+|	|	|		CPU load: 12.08%
+|	|	|		Memory usage: 106.09 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 106
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.707s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 105.74 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 106
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.145s
+|	|	|		CPU load: 11.92%
+|	|	|		Memory usage: 117.08 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 129
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.792s
+|	|	|		CPU load: 11.43%
+|	|	|		Memory usage: 115.64 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 129
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.155s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 110.66 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 129
+|	|	|
+Query 3
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.118s
+|	|	|		CPU load: 9.96%
+|	|	|		Memory usage: 64.20 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.114s
+|	|	|		CPU load: 12.06%
+|	|	|		Memory usage: 64.21 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.118s
+|	|	|		CPU load: 11.44%
+|	|	|		Memory usage: 64.48 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.129s
+|	|	|		CPU load: 9.11%
+|	|	|		Memory usage: 64.43 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 5
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.121s
+|	|	|		CPU load: 9.63%
+|	|	|		Memory usage: 63.80 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 5
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.122s
+|	|	|		CPU load: 14.33%
+|	|	|		Memory usage: 64.24 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 5
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.112s
+|	|	|		CPU load: 10.49%
+|	|	|		Memory usage: 64.12 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.136s
+|	|	|		CPU load: 8.64%
+|	|	|		Memory usage: 64.24 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.109s
+|	|	|		CPU load: 8.94%
+|	|	|		Memory usage: 64.65 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.487s
+|	|	|		CPU load: 12.81%
+|	|	|		Memory usage: 86.02 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 44
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.477s
+|	|	|		CPU load: 14.73%
+|	|	|		Memory usage: 85.42 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 44
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.566s
+|	|	|		CPU load: 14.44%
+|	|	|		Memory usage: 85.10 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 44
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.461s
+|	|	|		CPU load: 14.37%
+|	|	|		Memory usage: 84.01 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 45
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.493s
+|	|	|		CPU load: 11.08%
+|	|	|		Memory usage: 85.27 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 45
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.449s
+|	|	|		CPU load: 13.92%
+|	|	|		Memory usage: 86.48 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 45
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.461s
+|	|	|		CPU load: 14.80%
+|	|	|		Memory usage: 85.23 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 44
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.461s
+|	|	|		CPU load: 11.44%
+|	|	|		Memory usage: 83.98 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 44
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.505s
+|	|	|		CPU load: 11.98%
+|	|	|		Memory usage: 82.74 MB
+|	|	|		#Results: 44
+|	|	|		HTTP requests: 44
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.969s
+|	|	|		CPU load: 11.31%
+|	|	|		Memory usage: 132.60 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 217
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.173s
+|	|	|		CPU load: 11.77%
+|	|	|		Memory usage: 131.85 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 217
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.767s
+|	|	|		CPU load: 11.05%
+|	|	|		Memory usage: 134.95 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 217
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.826s
+|	|	|		CPU load: 11.88%
+|	|	|		Memory usage: 137.84 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 221
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.837s
+|	|	|		CPU load: 11.36%
+|	|	|		Memory usage: 135.24 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 221
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.839s
+|	|	|		CPU load: 12.11%
+|	|	|		Memory usage: 138.27 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 221
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.775s
+|	|	|		CPU load: 12.88%
+|	|	|		Memory usage: 137.35 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 220
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.881s
+|	|	|		CPU load: 12.97%
+|	|	|		Memory usage: 134.09 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 220
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.779s
+|	|	|		CPU load: 11.30%
+|	|	|		Memory usage: 135.49 MB
+|	|	|		#Results: 217
+|	|	|		HTTP requests: 220
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.151s
+|	|	|		CPU load: 11.99%
+|	|	|		Memory usage: 199.02 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 423
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.668s
+|	|	|		CPU load: 9.80%
+|	|	|		Memory usage: 202.78 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 423
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.677s
+|	|	|		CPU load: 10.41%
+|	|	|		Memory usage: 200.71 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 423
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.577s
+|	|	|		CPU load: 10.98%
+|	|	|		Memory usage: 200.23 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 428
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.598s
+|	|	|		CPU load: 10.75%
+|	|	|		Memory usage: 201.06 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 428
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.620s
+|	|	|		CPU load: 10.68%
+|	|	|		Memory usage: 207.75 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 428
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.687s
+|	|	|		CPU load: 11.45%
+|	|	|		Memory usage: 204.52 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 431
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.229s
+|	|	|		CPU load: 10.95%
+|	|	|		Memory usage: 210.95 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 431
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.054s
+|	|	|		CPU load: 10.50%
+|	|	|		Memory usage: 206.57 MB
+|	|	|		#Results: 423
+|	|	|		HTTP requests: 431
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 7.596s
+|	|	|		CPU load: 10.70%
+|	|	|		Memory usage: 334.44 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 853
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 7.395s
+|	|	|		CPU load: 10.88%
+|	|	|		Memory usage: 338.70 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 853
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 8.624s
+|	|	|		CPU load: 10.89%
+|	|	|		Memory usage: 331.25 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 853
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 7.879s
+|	|	|		CPU load: 10.73%
+|	|	|		Memory usage: 336.70 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 861
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 7.822s
+|	|	|		CPU load: 10.61%
+|	|	|		Memory usage: 338.93 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 861
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 7.844s
+|	|	|		CPU load: 10.53%
+|	|	|		Memory usage: 335.80 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 861
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 7.877s
+|	|	|		CPU load: 11.23%
+|	|	|		Memory usage: 342.35 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 868
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 7.957s
+|	|	|		CPU load: 10.92%
+|	|	|		Memory usage: 340.92 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 868
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 8.696s
+|	|	|		CPU load: 10.89%
+|	|	|		Memory usage: 337.18 MB
+|	|	|		#Results: 853
+|	|	|		HTTP requests: 868
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.580s
+|	|	|		CPU load: 11.24%
+|	|	|		Memory usage: 571.99 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1433
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.818s
+|	|	|		CPU load: 10.86%
+|	|	|		Memory usage: 567.99 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1433
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.441s
+|	|	|		CPU load: 11.32%
+|	|	|		Memory usage: 567.35 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1433
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.314s
+|	|	|		CPU load: 11.55%
+|	|	|		Memory usage: 573.75 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1448
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.765s
+|	|	|		CPU load: 10.58%
+|	|	|		Memory usage: 578.77 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1448
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.582s
+|	|	|		CPU load: 10.96%
+|	|	|		Memory usage: 576.63 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1448
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.799s
+|	|	|		CPU load: 11.05%
+|	|	|		Memory usage: 574.88 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1458
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 16.238s
+|	|	|		CPU load: 10.15%
+|	|	|		Memory usage: 577.17 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1458
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.443s
+|	|	|		CPU load: 11.60%
+|	|	|		Memory usage: 576.25 MB
+|	|	|		#Results: 1433
+|	|	|		HTTP requests: 1458
+|	|	|
+Query 4
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.081s
+|	|	|		CPU load: 14.35%
+|	|	|		Memory usage: 64.37 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.088s
+|	|	|		CPU load: 13.35%
+|	|	|		Memory usage: 64.39 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.088s
+|	|	|		CPU load: 10.96%
+|	|	|		Memory usage: 64.78 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.081s
+|	|	|		CPU load: 24.23%
+|	|	|		Memory usage: 64.30 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.085s
+|	|	|		CPU load: 9.01%
+|	|	|		Memory usage: 64.13 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.081s
+|	|	|		CPU load: 12.04%
+|	|	|		Memory usage: 64.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.082s
+|	|	|		CPU load: 11.89%
+|	|	|		Memory usage: 63.95 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.086s
+|	|	|		CPU load: 8.91%
+|	|	|		Memory usage: 63.99 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.083s
+|	|	|		CPU load: 11.75%
+|	|	|		Memory usage: 64.08 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.205s
+|	|	|		CPU load: 11.46%
+|	|	|		Memory usage: 68.59 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 8
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.260s
+|	|	|		CPU load: 12.02%
+|	|	|		Memory usage: 68.81 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 8
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.196s
+|	|	|		CPU load: 10.97%
+|	|	|		Memory usage: 68.75 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 8
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.221s
+|	|	|		CPU load: 11.43%
+|	|	|		Memory usage: 72.19 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.207s
+|	|	|		CPU load: 12.26%
+|	|	|		Memory usage: 70.09 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.227s
+|	|	|		CPU load: 16.30%
+|	|	|		Memory usage: 72.39 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.246s
+|	|	|		CPU load: 12.70%
+|	|	|		Memory usage: 72.53 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 12
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.239s
+|	|	|		CPU load: 10.57%
+|	|	|		Memory usage: 72.64 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 12
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.224s
+|	|	|		CPU load: 12.11%
+|	|	|		Memory usage: 73.04 MB
+|	|	|		#Results: 8
+|	|	|		HTTP requests: 12
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.937s
+|	|	|		CPU load: 14.58%
+|	|	|		Memory usage: 88.23 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 55
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.818s
+|	|	|		CPU load: 13.11%
+|	|	|		Memory usage: 88.18 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 55
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.834s
+|	|	|		CPU load: 14.75%
+|	|	|		Memory usage: 88.38 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 55
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.990s
+|	|	|		CPU load: 12.80%
+|	|	|		Memory usage: 91.93 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 65
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.843s
+|	|	|		CPU load: 12.96%
+|	|	|		Memory usage: 91.50 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 65
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.913s
+|	|	|		CPU load: 13.03%
+|	|	|		Memory usage: 91.82 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 65
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.350s
+|	|	|		CPU load: 15.18%
+|	|	|		Memory usage: 88.93 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 61
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.203s
+|	|	|		CPU load: 12.98%
+|	|	|		Memory usage: 89.27 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 61
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.042s
+|	|	|		CPU load: 12.74%
+|	|	|		Memory usage: 89.10 MB
+|	|	|		#Results: 50
+|	|	|		HTTP requests: 61
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.476s
+|	|	|		CPU load: 12.04%
+|	|	|		Memory usage: 106.59 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 99
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.697s
+|	|	|		CPU load: 11.84%
+|	|	|		Memory usage: 104.96 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 99
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.408s
+|	|	|		CPU load: 13.44%
+|	|	|		Memory usage: 104.67 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 99
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.630s
+|	|	|		CPU load: 11.74%
+|	|	|		Memory usage: 111.62 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 122
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.557s
+|	|	|		CPU load: 12.43%
+|	|	|		Memory usage: 108.82 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 122
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.660s
+|	|	|		CPU load: 12.00%
+|	|	|		Memory usage: 108.67 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 122
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.546s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 102.69 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 123
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.612s
+|	|	|		CPU load: 12.48%
+|	|	|		Memory usage: 113.84 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 123
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.512s
+|	|	|		CPU load: 13.16%
+|	|	|		Memory usage: 107.54 MB
+|	|	|		#Results: 91
+|	|	|		HTTP requests: 123
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.707s
+|	|	|		CPU load: 13.05%
+|	|	|		Memory usage: 139.69 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 194
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.610s
+|	|	|		CPU load: 12.80%
+|	|	|		Memory usage: 137.91 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 194
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.669s
+|	|	|		CPU load: 11.86%
+|	|	|		Memory usage: 138.62 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 194
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.812s
+|	|	|		CPU load: 12.29%
+|	|	|		Memory usage: 149.77 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 222
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.829s
+|	|	|		CPU load: 12.29%
+|	|	|		Memory usage: 149.64 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 222
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.699s
+|	|	|		CPU load: 12.81%
+|	|	|		Memory usage: 148.61 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 222
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.940s
+|	|	|		CPU load: 11.83%
+|	|	|		Memory usage: 148.50 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 234
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.927s
+|	|	|		CPU load: 12.01%
+|	|	|		Memory usage: 153.24 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 234
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.616s
+|	|	|		CPU load: 12.04%
+|	|	|		Memory usage: 151.75 MB
+|	|	|		#Results: 177
+|	|	|		HTTP requests: 234
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.529s
+|	|	|		CPU load: 11.56%
+|	|	|		Memory usage: 182.73 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 315
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.250s
+|	|	|		CPU load: 11.90%
+|	|	|		Memory usage: 187.12 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 315
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.182s
+|	|	|		CPU load: 12.70%
+|	|	|		Memory usage: 185.59 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 315
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.510s
+|	|	|		CPU load: 11.21%
+|	|	|		Memory usage: 208.99 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 373
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.877s
+|	|	|		CPU load: 11.37%
+|	|	|		Memory usage: 210.23 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 373
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.507s
+|	|	|		CPU load: 10.57%
+|	|	|		Memory usage: 208.97 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 373
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.795s
+|	|	|		CPU load: 11.48%
+|	|	|		Memory usage: 218.99 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 409
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.688s
+|	|	|		CPU load: 11.71%
+|	|	|		Memory usage: 218.16 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 409
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.576s
+|	|	|		CPU load: 12.19%
+|	|	|		Memory usage: 218.83 MB
+|	|	|		#Results: 293
+|	|	|		HTTP requests: 409
+|	|	|
+Query 5
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 4
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 4
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 36
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 36
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 36
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 38
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 38
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 38
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 39
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 39
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 39
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.211s
+|	|	|		CPU load: 12.41%
+|	|	|		Memory usage: 163.02 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 225
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.811s
+|	|	|		CPU load: 11.32%
+|	|	|		Memory usage: 162.96 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 225
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.563s
+|	|	|		CPU load: 11.29%
+|	|	|		Memory usage: 163.41 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 225
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.974s
+|	|	|		CPU load: 11.16%
+|	|	|		Memory usage: 166.54 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 237
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.011s
+|	|	|		CPU load: 11.60%
+|	|	|		Memory usage: 167.22 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 237
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.862s
+|	|	|		CPU load: 12.83%
+|	|	|		Memory usage: 167.28 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 237
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.803s
+|	|	|		CPU load: 11.50%
+|	|	|		Memory usage: 167.15 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 233
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.760s
+|	|	|		CPU load: 11.88%
+|	|	|		Memory usage: 166.24 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 233
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.792s
+|	|	|		CPU load: 11.89%
+|	|	|		Memory usage: 165.75 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 233
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.745s
+|	|	|		CPU load: 11.93%
+|	|	|		Memory usage: 257.14 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 466
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.818s
+|	|	|		CPU load: 10.97%
+|	|	|		Memory usage: 256.86 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 466
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.596s
+|	|	|		CPU load: 11.79%
+|	|	|		Memory usage: 256.28 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 466
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.548s
+|	|	|		CPU load: 11.51%
+|	|	|		Memory usage: 255.79 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 503
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.575s
+|	|	|		CPU load: 11.38%
+|	|	|		Memory usage: 268.06 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 503
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.466s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 269.04 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 503
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.279s
+|	|	|		CPU load: 12.23%
+|	|	|		Memory usage: 254.18 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 493
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.215s
+|	|	|		CPU load: 11.03%
+|	|	|		Memory usage: 266.69 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 493
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.887s
+|	|	|		CPU load: 11.86%
+|	|	|		Memory usage: 266.97 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 493
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.022s
+|	|	|		CPU load: 11.74%
+|	|	|		Memory usage: 447.52 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 980
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.462s
+|	|	|		CPU load: 11.57%
+|	|	|		Memory usage: 431.59 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 980
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.289s
+|	|	|		CPU load: 11.77%
+|	|	|		Memory usage: 441.88 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 980
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.735s
+|	|	|		CPU load: 11.19%
+|	|	|		Memory usage: 459.49 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 1032
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.164s
+|	|	|		CPU load: 11.54%
+|	|	|		Memory usage: 449.04 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 1032
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.796s
+|	|	|		CPU load: 11.71%
+|	|	|		Memory usage: 453.66 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 1032
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.085s
+|	|	|		CPU load: 11.65%
+|	|	|		Memory usage: 218.07 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 1035
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.407s
+|	|	|		CPU load: 11.53%
+|	|	|		Memory usage: 225.58 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 1035
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 15.167s
+|	|	|		CPU load: 11.70%
+|	|	|		Memory usage: 452.45 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 1035
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 30.927s
+|	|	|		CPU load: 11.67%
+|	|	|		Memory usage: 736.46 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1773
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 31.967s
+|	|	|		CPU load: 11.38%
+|	|	|		Memory usage: 734.60 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1773
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 31.945s
+|	|	|		CPU load: 11.36%
+|	|	|		Memory usage: 738.01 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1773
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 32.261s
+|	|	|		CPU load: 11.68%
+|	|	|		Memory usage: 762.00 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1866
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 35.075s
+|	|	|		CPU load: 11.58%
+|	|	|		Memory usage: 759.23 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1866
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 33.887s
+|	|	|		CPU load: 11.15%
+|	|	|		Memory usage: 761.81 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1866
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 34.627s
+|	|	|		CPU load: 11.49%
+|	|	|		Memory usage: 781.85 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1889
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 34.926s
+|	|	|		CPU load: 11.59%
+|	|	|		Memory usage: 768.07 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1889
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 34.064s
+|	|	|		CPU load: 11.42%
+|	|	|		Memory usage: 776.22 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 1889
+|	|	|
+Query 6
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 7
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.922s
+|	|	|		CPU load: 12.70%
+|	|	|		Memory usage: 103.70 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 65
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.016s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 102.72 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 65
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.162s
+|	|	|		CPU load: 11.93%
+|	|	|		Memory usage: 102.16 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 65
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.961s
+|	|	|		CPU load: 12.79%
+|	|	|		Memory usage: 100.47 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 67
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.010s
+|	|	|		CPU load: 12.19%
+|	|	|		Memory usage: 102.93 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 67
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.913s
+|	|	|		CPU load: 12.19%
+|	|	|		Memory usage: 103.25 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 67
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.090s
+|	|	|		CPU load: 13.43%
+|	|	|		Memory usage: 101.93 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 68
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.052s
+|	|	|		CPU load: 13.18%
+|	|	|		Memory usage: 103.10 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 68
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.886s
+|	|	|		CPU load: 14.53%
+|	|	|		Memory usage: 103.27 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 68
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 5.721s
+|	|	|		CPU load: 11.57%
+|	|	|		Memory usage: 181.24 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 304
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.639s
+|	|	|		CPU load: 11.95%
+|	|	|		Memory usage: 179.87 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 304
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.798s
+|	|	|		CPU load: 11.86%
+|	|	|		Memory usage: 180.79 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 304
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 5.841s
+|	|	|		CPU load: 11.50%
+|	|	|		Memory usage: 185.21 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 321
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.861s
+|	|	|		CPU load: 11.63%
+|	|	|		Memory usage: 184.17 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 321
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.805s
+|	|	|		CPU load: 11.81%
+|	|	|		Memory usage: 184.57 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 321
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.721s
+|	|	|		CPU load: 12.32%
+|	|	|		Memory usage: 188.96 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 336
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.660s
+|	|	|		CPU load: 11.52%
+|	|	|		Memory usage: 188.93 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 336
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.875s
+|	|	|		CPU load: 11.87%
+|	|	|		Memory usage: 189.32 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 336
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 16.575s
+|	|	|		CPU load: 11.79%
+|	|	|		Memory usage: 254.54 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 593
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 16.800s
+|	|	|		CPU load: 11.83%
+|	|	|		Memory usage: 261.54 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 593
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 18.193s
+|	|	|		CPU load: 12.13%
+|	|	|		Memory usage: 260.04 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 593
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 17.341s
+|	|	|		CPU load: 12.01%
+|	|	|		Memory usage: 278.24 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 629
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 16.881s
+|	|	|		CPU load: 11.75%
+|	|	|		Memory usage: 289.56 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 629
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 17.814s
+|	|	|		CPU load: 11.64%
+|	|	|		Memory usage: 273.78 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 629
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 17.517s
+|	|	|		CPU load: 11.83%
+|	|	|		Memory usage: 289.43 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 669
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 17.309s
+|	|	|		CPU load: 11.63%
+|	|	|		Memory usage: 180.96 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 669
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 17.790s
+|	|	|		CPU load: 11.90%
+|	|	|		Memory usage: 286.22 MB
+|	|	|		#Results: 14
+|	|	|		HTTP requests: 669
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 66.465s
+|	|	|		CPU load: 11.96%
+|	|	|		Memory usage: 513.93 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1170
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 67.022s
+|	|	|		CPU load: 12.11%
+|	|	|		Memory usage: 501.16 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1170
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 60.806s
+|	|	|		CPU load: 12.23%
+|	|	|		Memory usage: 472.75 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1170
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 60.871s
+|	|	|		CPU load: 12.36%
+|	|	|		Memory usage: 513.96 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1238
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 60.562s
+|	|	|		CPU load: 12.24%
+|	|	|		Memory usage: 535.11 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1238
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 61.315s
+|	|	|		CPU load: 12.19%
+|	|	|		Memory usage: 535.24 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1238
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 60.722s
+|	|	|		CPU load: 12.18%
+|	|	|		Memory usage: 555.66 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1320
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 61.202s
+|	|	|		CPU load: 12.24%
+|	|	|		Memory usage: 174.89 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1320
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 60.798s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 548.42 MB
+|	|	|		#Results: 32
+|	|	|		HTTP requests: 1320
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 185.467s
+|	|	|		CPU load: 12.15%
+|	|	|		Memory usage: 185.55 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2012
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 190.014s
+|	|	|		CPU load: 12.28%
+|	|	|		Memory usage: 184.46 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2012
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 189.209s
+|	|	|		CPU load: 12.33%
+|	|	|		Memory usage: 178.62 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2012
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 190.718s
+|	|	|		CPU load: 12.32%
+|	|	|		Memory usage: 229.40 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2148
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 192.452s
+|	|	|		CPU load: 12.37%
+|	|	|		Memory usage: 211.56 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2148
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 192.600s
+|	|	|		CPU load: 12.39%
+|	|	|		Memory usage: 214.59 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2148
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 194.839s
+|	|	|		CPU load: 12.32%
+|	|	|		Memory usage: 230.50 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2300
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 180.704s
+|	|	|		CPU load: 12.30%
+|	|	|		Memory usage: 223.66 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2300
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 187.219s
+|	|	|		CPU load: 12.29%
+|	|	|		Memory usage: 228.99 MB
+|	|	|		#Results: 52
+|	|	|		HTTP requests: 2300
+|	|	|
+Query 7
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 3
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.616s
+|	|	|		CPU load: 12.36%
+|	|	|		Memory usage: 86.46 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 25
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.650s
+|	|	|		CPU load: 12.00%
+|	|	|		Memory usage: 86.34 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 25
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.515s
+|	|	|		CPU load: 14.39%
+|	|	|		Memory usage: 85.77 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 25
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.593s
+|	|	|		CPU load: 12.84%
+|	|	|		Memory usage: 85.49 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 31
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.552s
+|	|	|		CPU load: 14.49%
+|	|	|		Memory usage: 85.43 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 31
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.694s
+|	|	|		CPU load: 12.63%
+|	|	|		Memory usage: 85.41 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 31
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.801s
+|	|	|		CPU load: 13.64%
+|	|	|		Memory usage: 85.33 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 31
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.754s
+|	|	|		CPU load: 13.20%
+|	|	|		Memory usage: 85.93 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 31
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.660s
+|	|	|		CPU load: 14.16%
+|	|	|		Memory usage: 85.68 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 31
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.983s
+|	|	|		CPU load: 12.66%
+|	|	|		Memory usage: 121.49 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 120
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.059s
+|	|	|		CPU load: 13.23%
+|	|	|		Memory usage: 122.98 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 120
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.033s
+|	|	|		CPU load: 13.22%
+|	|	|		Memory usage: 124.93 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 120
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.306s
+|	|	|		CPU load: 12.85%
+|	|	|		Memory usage: 129.44 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 146
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.517s
+|	|	|		CPU load: 11.65%
+|	|	|		Memory usage: 129.50 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 146
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.234s
+|	|	|		CPU load: 12.68%
+|	|	|		Memory usage: 130.62 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 146
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.180s
+|	|	|		CPU load: 13.41%
+|	|	|		Memory usage: 131.04 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 153
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.476s
+|	|	|		CPU load: 13.48%
+|	|	|		Memory usage: 129.91 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 153
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.199s
+|	|	|		CPU load: 12.77%
+|	|	|		Memory usage: 131.04 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 153
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.056s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 171.80 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 264
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 12.943s
+|	|	|		CPU load: 12.87%
+|	|	|		Memory usage: 171.53 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 264
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 13.757s
+|	|	|		CPU load: 12.48%
+|	|	|		Memory usage: 171.65 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 264
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 13.268s
+|	|	|		CPU load: 12.62%
+|	|	|		Memory usage: 189.53 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 308
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 12.852s
+|	|	|		CPU load: 12.40%
+|	|	|		Memory usage: 189.23 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 308
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.876s
+|	|	|		CPU load: 12.44%
+|	|	|		Memory usage: 189.66 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 308
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 13.613s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 204.62 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 340
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 13.242s
+|	|	|		CPU load: 12.62%
+|	|	|		Memory usage: 204.20 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 340
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 13.026s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 203.10 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 340
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 55.171s
+|	|	|		CPU load: 12.43%
+|	|	|		Memory usage: 204.84 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 560
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 53.993s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 183.08 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 560
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 59.645s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 297.88 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 560
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 54.526s
+|	|	|		CPU load: 12.54%
+|	|	|		Memory usage: 317.63 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 626
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 53.761s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 317.09 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 626
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 53.950s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 316.89 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 626
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 54.542s
+|	|	|		CPU load: 12.54%
+|	|	|		Memory usage: 326.77 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 707
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 54.156s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 319.84 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 707
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 54.276s
+|	|	|		CPU load: 12.55%
+|	|	|		Memory usage: 321.59 MB
+|	|	|		#Results: 21
+|	|	|		HTTP requests: 707
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 161.862s
+|	|	|		CPU load: 12.55%
+|	|	|		Memory usage: 169.82 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1034
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 161.254s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 170.80 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1034
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 160.582s
+|	|	|		CPU load: 12.55%
+|	|	|		Memory usage: 178.85 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1034
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 160.202s
+|	|	|		CPU load: 12.53%
+|	|	|		Memory usage: 199.50 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1168
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 161.430s
+|	|	|		CPU load: 12.54%
+|	|	|		Memory usage: 198.07 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1168
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 162.049s
+|	|	|		CPU load: 12.55%
+|	|	|		Memory usage: 197.43 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1168
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 161.545s
+|	|	|		CPU load: 12.53%
+|	|	|		Memory usage: 227.08 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1310
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 160.708s
+|	|	|		CPU load: 12.54%
+|	|	|		Memory usage: 203.55 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1310
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 161.457s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 225.38 MB
+|	|	|		#Results: 33
+|	|	|		HTTP requests: 1310
+|	|	|
+Query 8
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.148s
+|	|	|		CPU load: 13.18%
+|	|	|		Memory usage: 66.46 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.141s
+|	|	|		CPU load: 12.41%
+|	|	|		Memory usage: 66.61 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.157s
+|	|	|		CPU load: 13.69%
+|	|	|		Memory usage: 66.30 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.153s
+|	|	|		CPU load: 11.52%
+|	|	|		Memory usage: 67.05 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.142s
+|	|	|		CPU load: 13.64%
+|	|	|		Memory usage: 66.31 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.152s
+|	|	|		CPU load: 12.75%
+|	|	|		Memory usage: 66.73 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.141s
+|	|	|		CPU load: 8.42%
+|	|	|		Memory usage: 66.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.139s
+|	|	|		CPU load: 13.93%
+|	|	|		Memory usage: 66.16 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.143s
+|	|	|		CPU load: 12.24%
+|	|	|		Memory usage: 66.40 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 10
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.734s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 105.00 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.714s
+|	|	|		CPU load: 12.59%
+|	|	|		Memory usage: 105.31 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.733s
+|	|	|		CPU load: 14.12%
+|	|	|		Memory usage: 104.55 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.704s
+|	|	|		CPU load: 14.15%
+|	|	|		Memory usage: 104.04 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.706s
+|	|	|		CPU load: 14.09%
+|	|	|		Memory usage: 106.45 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.691s
+|	|	|		CPU load: 13.57%
+|	|	|		Memory usage: 105.79 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.701s
+|	|	|		CPU load: 14.48%
+|	|	|		Memory usage: 105.73 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.805s
+|	|	|		CPU load: 14.55%
+|	|	|		Memory usage: 105.60 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.710s
+|	|	|		CPU load: 14.84%
+|	|	|		Memory usage: 104.52 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 100
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.003s
+|	|	|		CPU load: 14.89%
+|	|	|		Memory usage: 265.22 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 505
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.854s
+|	|	|		CPU load: 13.75%
+|	|	|		Memory usage: 266.91 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 505
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.852s
+|	|	|		CPU load: 13.90%
+|	|	|		Memory usage: 267.80 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 505
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.016s
+|	|	|		CPU load: 13.33%
+|	|	|		Memory usage: 267.95 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 510
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.496s
+|	|	|		CPU load: 11.73%
+|	|	|		Memory usage: 268.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 510
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.891s
+|	|	|		CPU load: 12.70%
+|	|	|		Memory usage: 266.30 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 510
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.802s
+|	|	|		CPU load: 14.43%
+|	|	|		Memory usage: 268.47 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 509
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.057s
+|	|	|		CPU load: 12.84%
+|	|	|		Memory usage: 268.78 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 509
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.977s
+|	|	|		CPU load: 13.70%
+|	|	|		Memory usage: 268.85 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 509
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 5.481s
+|	|	|		CPU load: 13.33%
+|	|	|		Memory usage: 437.08 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1009
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.421s
+|	|	|		CPU load: 13.04%
+|	|	|		Memory usage: 416.14 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1009
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.476s
+|	|	|		CPU load: 14.02%
+|	|	|		Memory usage: 436.25 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1009
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 5.547s
+|	|	|		CPU load: 13.77%
+|	|	|		Memory usage: 439.99 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.523s
+|	|	|		CPU load: 13.61%
+|	|	|		Memory usage: 439.05 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.787s
+|	|	|		CPU load: 13.40%
+|	|	|		Memory usage: 426.61 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 5.469s
+|	|	|		CPU load: 14.28%
+|	|	|		Memory usage: 428.96 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.482s
+|	|	|		CPU load: 13.82%
+|	|	|		Memory usage: 429.41 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 5.679s
+|	|	|		CPU load: 12.83%
+|	|	|		Memory usage: 441.61 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1016
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 10.463s
+|	|	|		CPU load: 13.53%
+|	|	|		Memory usage: 824.95 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2014
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 10.312s
+|	|	|		CPU load: 13.98%
+|	|	|		Memory usage: 824.86 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2014
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 10.099s
+|	|	|		CPU load: 13.09%
+|	|	|		Memory usage: 443.75 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2014
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 10.920s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 830.65 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2023
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 10.125s
+|	|	|		CPU load: 12.96%
+|	|	|		Memory usage: 835.37 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2023
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 10.607s
+|	|	|		CPU load: 13.84%
+|	|	|		Memory usage: 824.75 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2023
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 10.294s
+|	|	|		CPU load: 14.25%
+|	|	|		Memory usage: 836.26 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2036
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 10.236s
+|	|	|		CPU load: 13.49%
+|	|	|		Memory usage: 841.80 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2036
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 11.113s
+|	|	|		CPU load: 14.16%
+|	|	|		Memory usage: 841.99 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2036
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 17.405s
+|	|	|		CPU load: 13.09%
+|	|	|		Memory usage: 1310.71 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3524
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 17.498s
+|	|	|		CPU load: 13.30%
+|	|	|		Memory usage: 1292.84 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3524
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 17.223s
+|	|	|		CPU load: 12.94%
+|	|	|		Memory usage: 1299.41 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3524
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 17.133s
+|	|	|		CPU load: 12.57%
+|	|	|		Memory usage: 1292.02 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3553
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 17.487s
+|	|	|		CPU load: 13.14%
+|	|	|		Memory usage: 1296.09 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3553
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 18.306s
+|	|	|		CPU load: 12.58%
+|	|	|		Memory usage: 1301.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3553
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 17.709s
+|	|	|		CPU load: 13.42%
+|	|	|		Memory usage: 1305.80 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3545
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 17.346s
+|	|	|		CPU load: 13.30%
+|	|	|		Memory usage: 1299.20 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3545
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 17.538s
+|	|	|		CPU load: 13.17%
+|	|	|		Memory usage: 1304.23 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3545
+|	|	|
+Query 9
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.135s
+|	|	|		CPU load: 11.57%
+|	|	|		Memory usage: 66.47 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.136s
+|	|	|		CPU load: 15.69%
+|	|	|		Memory usage: 66.58 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.139s
+|	|	|		CPU load: 12.59%
+|	|	|		Memory usage: 66.28 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.142s
+|	|	|		CPU load: 10.84%
+|	|	|		Memory usage: 66.66 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.149s
+|	|	|		CPU load: 9.17%
+|	|	|		Memory usage: 66.14 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.138s
+|	|	|		CPU load: 11.23%
+|	|	|		Memory usage: 66.35 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.230s
+|	|	|		CPU load: 14.39%
+|	|	|		Memory usage: 66.58 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.140s
+|	|	|		CPU load: 16.67%
+|	|	|		Memory usage: 66.73 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.133s
+|	|	|		CPU load: 12.97%
+|	|	|		Memory usage: 65.91 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 9
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.619s
+|	|	|		CPU load: 13.89%
+|	|	|		Memory usage: 100.13 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.620s
+|	|	|		CPU load: 16.09%
+|	|	|		Memory usage: 99.87 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.673s
+|	|	|		CPU load: 11.87%
+|	|	|		Memory usage: 101.17 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.648s
+|	|	|		CPU load: 14.18%
+|	|	|		Memory usage: 99.43 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.672s
+|	|	|		CPU load: 14.21%
+|	|	|		Memory usage: 100.92 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.650s
+|	|	|		CPU load: 13.83%
+|	|	|		Memory usage: 99.89 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.646s
+|	|	|		CPU load: 16.35%
+|	|	|		Memory usage: 99.61 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.731s
+|	|	|		CPU load: 13.34%
+|	|	|		Memory usage: 99.57 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.622s
+|	|	|		CPU load: 15.07%
+|	|	|		Memory usage: 101.38 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 77
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.737s
+|	|	|		CPU load: 11.56%
+|	|	|		Memory usage: 254.50 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 410
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.638s
+|	|	|		CPU load: 13.25%
+|	|	|		Memory usage: 254.44 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 410
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.742s
+|	|	|		CPU load: 13.74%
+|	|	|		Memory usage: 253.76 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 410
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.702s
+|	|	|		CPU load: 13.95%
+|	|	|		Memory usage: 255.19 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 415
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.599s
+|	|	|		CPU load: 13.15%
+|	|	|		Memory usage: 253.76 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 415
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.630s
+|	|	|		CPU load: 12.10%
+|	|	|		Memory usage: 253.28 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 415
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.731s
+|	|	|		CPU load: 13.01%
+|	|	|		Memory usage: 254.51 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 416
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.622s
+|	|	|		CPU load: 14.15%
+|	|	|		Memory usage: 254.39 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 416
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.802s
+|	|	|		CPU load: 14.14%
+|	|	|		Memory usage: 255.90 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 416
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 5.166s
+|	|	|		CPU load: 13.54%
+|	|	|		Memory usage: 392.99 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 806
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 5.500s
+|	|	|		CPU load: 13.53%
+|	|	|		Memory usage: 389.20 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 806
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.914s
+|	|	|		CPU load: 14.23%
+|	|	|		Memory usage: 385.36 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 806
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.995s
+|	|	|		CPU load: 13.96%
+|	|	|		Memory usage: 390.41 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 812
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.917s
+|	|	|		CPU load: 13.90%
+|	|	|		Memory usage: 385.01 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 812
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.865s
+|	|	|		CPU load: 14.17%
+|	|	|		Memory usage: 397.69 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 812
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.908s
+|	|	|		CPU load: 13.21%
+|	|	|		Memory usage: 389.75 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 818
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.939s
+|	|	|		CPU load: 13.76%
+|	|	|		Memory usage: 392.55 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 818
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.942s
+|	|	|		CPU load: 13.59%
+|	|	|		Memory usage: 390.42 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 818
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 9.213s
+|	|	|		CPU load: 13.84%
+|	|	|		Memory usage: 785.27 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1612
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 10.232s
+|	|	|		CPU load: 13.28%
+|	|	|		Memory usage: 788.35 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1612
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 9.206s
+|	|	|		CPU load: 13.56%
+|	|	|		Memory usage: 782.56 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1612
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 9.141s
+|	|	|		CPU load: 14.53%
+|	|	|		Memory usage: 776.63 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1622
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 9.156s
+|	|	|		CPU load: 14.50%
+|	|	|		Memory usage: 780.59 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1622
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 9.168s
+|	|	|		CPU load: 13.57%
+|	|	|		Memory usage: 782.18 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1622
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 9.121s
+|	|	|		CPU load: 13.17%
+|	|	|		Memory usage: 803.75 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1641
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 9.791s
+|	|	|		CPU load: 14.48%
+|	|	|		Memory usage: 796.45 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1641
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 9.247s
+|	|	|		CPU load: 13.49%
+|	|	|		Memory usage: 792.07 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 1641
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.080s
+|	|	|		CPU load: 13.02%
+|	|	|		Memory usage: 1238.70 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2802
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.775s
+|	|	|		CPU load: 13.31%
+|	|	|		Memory usage: 1233.16 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2802
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 16.146s
+|	|	|		CPU load: 12.84%
+|	|	|		Memory usage: 1212.66 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2802
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.171s
+|	|	|		CPU load: 13.49%
+|	|	|		Memory usage: 1228.86 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2833
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.275s
+|	|	|		CPU load: 12.88%
+|	|	|		Memory usage: 1236.96 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2833
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 15.297s
+|	|	|		CPU load: 13.16%
+|	|	|		Memory usage: 1234.22 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2833
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.703s
+|	|	|		CPU load: 13.61%
+|	|	|		Memory usage: 1236.46 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2833
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.262s
+|	|	|		CPU load: 13.58%
+|	|	|		Memory usage: 1222.98 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2833
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 15.514s
+|	|	|		CPU load: 13.66%
+|	|	|		Memory usage: 1231.01 MB
+|	|	|		#Results: 12
+|	|	|		HTTP requests: 2833
+|	|	|
+Query 10
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.070s
+|	|	|		CPU load: 13.91%
+|	|	|		Memory usage: 64.00 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.065s
+|	|	|		CPU load: 11.93%
+|	|	|		Memory usage: 63.83 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.067s
+|	|	|		CPU load: 17.28%
+|	|	|		Memory usage: 63.66 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.070s
+|	|	|		CPU load: 13.73%
+|	|	|		Memory usage: 63.96 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.068s
+|	|	|		CPU load: 17.21%
+|	|	|		Memory usage: 64.14 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.071s
+|	|	|		CPU load: 13.37%
+|	|	|		Memory usage: 64.19 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.102s
+|	|	|		CPU load: 13.23%
+|	|	|		Memory usage: 64.50 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.101s
+|	|	|		CPU load: 11.52%
+|	|	|		Memory usage: 64.85 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.109s
+|	|	|		CPU load: 7.22%
+|	|	|		Memory usage: 64.59 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 9
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.621s
+|	|	|		CPU load: 12.28%
+|	|	|		Memory usage: 101.04 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 79
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.500s
+|	|	|		CPU load: 10.90%
+|	|	|		Memory usage: 78.53 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 79
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.464s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 78.39 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 79
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.203s
+|	|	|		CPU load: 14.34%
+|	|	|		Memory usage: 71.83 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.203s
+|	|	|		CPU load: 19.21%
+|	|	|		Memory usage: 71.48 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.203s
+|	|	|		CPU load: 14.27%
+|	|	|		Memory usage: 73.97 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.422s
+|	|	|		CPU load: 10.17%
+|	|	|		Memory usage: 77.75 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 79
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.439s
+|	|	|		CPU load: 10.71%
+|	|	|		Memory usage: 78.23 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 79
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.634s
+|	|	|		CPU load: 15.69%
+|	|	|		Memory usage: 99.84 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 79
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.665s
+|	|	|		CPU load: 12.81%
+|	|	|		Memory usage: 255.70 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 414
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.833s
+|	|	|		CPU load: 13.44%
+|	|	|		Memory usage: 255.51 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 414
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.859s
+|	|	|		CPU load: 14.07%
+|	|	|		Memory usage: 255.98 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 414
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.650s
+|	|	|		CPU load: 13.19%
+|	|	|		Memory usage: 260.14 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 426
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.672s
+|	|	|		CPU load: 13.45%
+|	|	|		Memory usage: 258.85 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 426
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.739s
+|	|	|		CPU load: 13.54%
+|	|	|		Memory usage: 259.80 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 426
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 2.580s
+|	|	|		CPU load: 14.31%
+|	|	|		Memory usage: 256.60 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 421
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 2.613s
+|	|	|		CPU load: 14.95%
+|	|	|		Memory usage: 256.39 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 421
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 2.712s
+|	|	|		CPU load: 13.54%
+|	|	|		Memory usage: 257.83 MB
+|	|	|		#Results: 25
+|	|	|		HTTP requests: 421
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.181s
+|	|	|		CPU load: 13.84%
+|	|	|		Memory usage: 403.63 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 814
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.138s
+|	|	|		CPU load: 14.16%
+|	|	|		Memory usage: 393.72 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 814
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.579s
+|	|	|		CPU load: 13.36%
+|	|	|		Memory usage: 394.73 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 814
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.186s
+|	|	|		CPU load: 12.95%
+|	|	|		Memory usage: 403.00 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 848
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.247s
+|	|	|		CPU load: 13.60%
+|	|	|		Memory usage: 400.13 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 848
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.441s
+|	|	|		CPU load: 13.37%
+|	|	|		Memory usage: 426.20 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 848
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.216s
+|	|	|		CPU load: 13.07%
+|	|	|		Memory usage: 400.48 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 838
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.202s
+|	|	|		CPU load: 13.10%
+|	|	|		Memory usage: 397.68 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 838
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.199s
+|	|	|		CPU load: 13.61%
+|	|	|		Memory usage: 395.93 MB
+|	|	|		#Results: 38
+|	|	|		HTTP requests: 838
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.256s
+|	|	|		CPU load: 13.47%
+|	|	|		Memory usage: 794.00 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1636
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.453s
+|	|	|		CPU load: 12.78%
+|	|	|		Memory usage: 277.25 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1636
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.554s
+|	|	|		CPU load: 13.27%
+|	|	|		Memory usage: 789.31 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1636
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.187s
+|	|	|		CPU load: 13.82%
+|	|	|		Memory usage: 811.14 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1687
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.736s
+|	|	|		CPU load: 13.98%
+|	|	|		Memory usage: 806.00 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1687
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.044s
+|	|	|		CPU load: 13.50%
+|	|	|		Memory usage: 803.30 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1687
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.643s
+|	|	|		CPU load: 13.32%
+|	|	|		Memory usage: 758.68 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1685
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.106s
+|	|	|		CPU load: 13.85%
+|	|	|		Memory usage: 813.19 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1685
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.439s
+|	|	|		CPU load: 13.92%
+|	|	|		Memory usage: 806.18 MB
+|	|	|		#Results: 76
+|	|	|		HTTP requests: 1685
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 27.573s
+|	|	|		CPU load: 12.87%
+|	|	|		Memory usage: 1235.18 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2840
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 28.646s
+|	|	|		CPU load: 13.02%
+|	|	|		Memory usage: 1239.63 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2840
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 28.125s
+|	|	|		CPU load: 12.76%
+|	|	|		Memory usage: 1238.25 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2840
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 29.224s
+|	|	|		CPU load: 12.82%
+|	|	|		Memory usage: 1267.64 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2931
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 28.532s
+|	|	|		CPU load: 12.75%
+|	|	|		Memory usage: 1255.88 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2931
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 29.469s
+|	|	|		CPU load: 12.82%
+|	|	|		Memory usage: 1272.26 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2931
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 28.613s
+|	|	|		CPU load: 12.73%
+|	|	|		Memory usage: 1276.55 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2936
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 29.033s
+|	|	|		CPU load: 13.16%
+|	|	|		Memory usage: 1270.66 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2936
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 28.460s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 1323.07 MB
+|	|	|		#Results: 115
+|	|	|		HTTP requests: 2936
+|	|	|
+Query 11
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.942s
+|	|	|		CPU load: 14.03%
+|	|	|		Memory usage: 329.62 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 726
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.751s
+|	|	|		CPU load: 13.32%
+|	|	|		Memory usage: 321.80 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 726
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.698s
+|	|	|		CPU load: 13.18%
+|	|	|		Memory usage: 319.06 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 726
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.809s
+|	|	|		CPU load: 14.54%
+|	|	|		Memory usage: 324.09 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 738
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.714s
+|	|	|		CPU load: 14.00%
+|	|	|		Memory usage: 328.39 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 738
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.653s
+|	|	|		CPU load: 14.48%
+|	|	|		Memory usage: 363.41 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 738
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 4.639s
+|	|	|		CPU load: 13.69%
+|	|	|		Memory usage: 325.75 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 733
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 4.727s
+|	|	|		CPU load: 13.76%
+|	|	|		Memory usage: 328.67 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 733
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 4.683s
+|	|	|		CPU load: 13.63%
+|	|	|		Memory usage: 326.21 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 733
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 13.178s
+|	|	|		CPU load: 13.89%
+|	|	|		Memory usage: 612.34 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1471
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 12.778s
+|	|	|		CPU load: 13.22%
+|	|	|		Memory usage: 612.75 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1471
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.605s
+|	|	|		CPU load: 13.03%
+|	|	|		Memory usage: 613.87 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1471
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 12.693s
+|	|	|		CPU load: 13.34%
+|	|	|		Memory usage: 632.05 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1507
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 13.136s
+|	|	|		CPU load: 12.85%
+|	|	|		Memory usage: 632.05 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1507
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.737s
+|	|	|		CPU load: 13.69%
+|	|	|		Memory usage: 633.25 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1507
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 12.671s
+|	|	|		CPU load: 13.50%
+|	|	|		Memory usage: 633.36 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1496
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 12.920s
+|	|	|		CPU load: 13.44%
+|	|	|		Memory usage: 629.54 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1496
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.686s
+|	|	|		CPU load: 12.93%
+|	|	|		Memory usage: 629.82 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 1496
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 33.810s
+|	|	|		CPU load: 12.82%
+|	|	|		Memory usage: 1103.71 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 2985
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 33.746s
+|	|	|		CPU load: 12.72%
+|	|	|		Memory usage: 1092.73 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 2985
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 34.034s
+|	|	|		CPU load: 12.68%
+|	|	|		Memory usage: 1101.51 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 2985
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 34.281s
+|	|	|		CPU load: 12.69%
+|	|	|		Memory usage: 1116.48 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 3040
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 33.687s
+|	|	|		CPU load: 12.80%
+|	|	|		Memory usage: 1119.99 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 3040
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 34.101s
+|	|	|		CPU load: 12.72%
+|	|	|		Memory usage: 1120.75 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 3040
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 33.804s
+|	|	|		CPU load: 12.72%
+|	|	|		Memory usage: 1123.32 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 3038
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 33.431s
+|	|	|		CPU load: 12.92%
+|	|	|		Memory usage: 1112.56 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 3038
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 34.167s
+|	|	|		CPU load: 12.87%
+|	|	|		Memory usage: 1123.21 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 3038
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 73.490s
+|	|	|		CPU load: 12.64%
+|	|	|		Memory usage: 1997.09 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5280
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 73.148s
+|	|	|		CPU load: 12.54%
+|	|	|		Memory usage: 1989.55 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5280
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 73.454s
+|	|	|		CPU load: 12.89%
+|	|	|		Memory usage: 1988.09 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5280
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 73.697s
+|	|	|		CPU load: 12.61%
+|	|	|		Memory usage: 1990.98 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5383
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 73.703s
+|	|	|		CPU load: 12.64%
+|	|	|		Memory usage: 2003.21 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5383
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 73.250s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 2009.03 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5383
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 73.589s
+|	|	|		CPU load: 12.75%
+|	|	|		Memory usage: 2037.58 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5395
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 74.056s
+|	|	|		CPU load: 12.59%
+|	|	|		Memory usage: 2037.68 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5395
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 73.071s
+|	|	|		CPU load: 12.65%
+|	|	|		Memory usage: 2040.71 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 5395
+|	|	|
+Query 12
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.415s
+|	|	|		CPU load: 12.74%
+|	|	|		Memory usage: 74.11 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 8
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.444s
+|	|	|		CPU load: 13.17%
+|	|	|		Memory usage: 73.91 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 8
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.402s
+|	|	|		CPU load: 12.62%
+|	|	|		Memory usage: 73.67 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 8
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.429s
+|	|	|		CPU load: 14.16%
+|	|	|		Memory usage: 78.10 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 12
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.455s
+|	|	|		CPU load: 12.86%
+|	|	|		Memory usage: 77.45 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 12
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.486s
+|	|	|		CPU load: 13.60%
+|	|	|		Memory usage: 77.32 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 12
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.453s
+|	|	|		CPU load: 12.91%
+|	|	|		Memory usage: 77.86 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 18
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.462s
+|	|	|		CPU load: 13.53%
+|	|	|		Memory usage: 77.40 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 18
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.451s
+|	|	|		CPU load: 12.11%
+|	|	|		Memory usage: 77.61 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 18
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.687s
+|	|	|		CPU load: 13.29%
+|	|	|		Memory usage: 86.92 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 33
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.649s
+|	|	|		CPU load: 12.74%
+|	|	|		Memory usage: 86.55 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 33
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.788s
+|	|	|		CPU load: 13.20%
+|	|	|		Memory usage: 85.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 33
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.786s
+|	|	|		CPU load: 13.31%
+|	|	|		Memory usage: 92.14 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 52
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.597s
+|	|	|		CPU load: 12.76%
+|	|	|		Memory usage: 92.40 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 52
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.621s
+|	|	|		CPU load: 13.37%
+|	|	|		Memory usage: 91.93 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 52
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.620s
+|	|	|		CPU load: 13.16%
+|	|	|		Memory usage: 92.86 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 59
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.608s
+|	|	|		CPU load: 13.31%
+|	|	|		Memory usage: 92.21 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 59
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.655s
+|	|	|		CPU load: 13.20%
+|	|	|		Memory usage: 91.98 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 59
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 11.920s
+|	|	|		CPU load: 12.81%
+|	|	|		Memory usage: 104.52 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 11.932s
+|	|	|		CPU load: 12.77%
+|	|	|		Memory usage: 105.14 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.593s
+|	|	|		CPU load: 12.77%
+|	|	|		Memory usage: 103.69 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 77
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 11.913s
+|	|	|		CPU load: 12.57%
+|	|	|		Memory usage: 115.57 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 106
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 11.999s
+|	|	|		CPU load: 12.71%
+|	|	|		Memory usage: 114.62 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 106
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 11.935s
+|	|	|		CPU load: 12.78%
+|	|	|		Memory usage: 116.45 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 106
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 12.279s
+|	|	|		CPU load: 12.57%
+|	|	|		Memory usage: 115.48 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 124
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 12.472s
+|	|	|		CPU load: 12.65%
+|	|	|		Memory usage: 116.05 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 124
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.096s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 118.23 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 124
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 52.463s
+|	|	|		CPU load: 12.58%
+|	|	|		Memory usage: 142.51 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 161
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 52.085s
+|	|	|		CPU load: 12.54%
+|	|	|		Memory usage: 143.00 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 161
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 52.464s
+|	|	|		CPU load: 12.53%
+|	|	|		Memory usage: 142.56 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 161
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 51.914s
+|	|	|		CPU load: 12.60%
+|	|	|		Memory usage: 155.96 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 210
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 52.034s
+|	|	|		CPU load: 12.61%
+|	|	|		Memory usage: 157.38 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 210
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 52.466s
+|	|	|		CPU load: 12.58%
+|	|	|		Memory usage: 157.10 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 210
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 52.968s
+|	|	|		CPU load: 12.49%
+|	|	|		Memory usage: 175.64 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 269
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 52.274s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 175.39 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 269
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 54.691s
+|	|	|		CPU load: 12.53%
+|	|	|		Memory usage: 176.13 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 269
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 158.020s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 193.88 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 283
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 156.429s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 194.39 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 283
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 156.568s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 194.36 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 283
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 157.807s
+|	|	|		CPU load: 12.49%
+|	|	|		Memory usage: 221.90 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 369
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 157.058s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 223.54 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 369
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 158.770s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 222.89 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 369
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 157.807s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 169.96 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 479
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 160.369s
+|	|	|		CPU load: 12.53%
+|	|	|		Memory usage: 170.70 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 479
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 158.687s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 226.48 MB
+|	|	|		#Results: 3
+|	|	|		HTTP requests: 479
+|	|	|
+Query 13
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.266s
+|	|	|		CPU load: 12.45%
+|	|	|		Memory usage: 73.48 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.241s
+|	|	|		CPU load: 10.54%
+|	|	|		Memory usage: 73.86 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.235s
+|	|	|		CPU load: 14.04%
+|	|	|		Memory usage: 74.18 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.245s
+|	|	|		CPU load: 11.94%
+|	|	|		Memory usage: 73.78 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.237s
+|	|	|		CPU load: 10.66%
+|	|	|		Memory usage: 73.66 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.234s
+|	|	|		CPU load: 9.99%
+|	|	|		Memory usage: 73.90 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.232s
+|	|	|		CPU load: 15.19%
+|	|	|		Memory usage: 73.57 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.235s
+|	|	|		CPU load: 13.19%
+|	|	|		Memory usage: 73.73 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.234s
+|	|	|		CPU load: 9.15%
+|	|	|		Memory usage: 73.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 20
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.929s
+|	|	|		CPU load: 13.05%
+|	|	|		Memory usage: 112.97 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 300
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.782s
+|	|	|		CPU load: 13.37%
+|	|	|		Memory usage: 113.93 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 300
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.851s
+|	|	|		CPU load: 14.46%
+|	|	|		Memory usage: 112.39 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 300
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.851s
+|	|	|		CPU load: 13.83%
+|	|	|		Memory usage: 113.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 303
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.785s
+|	|	|		CPU load: 13.34%
+|	|	|		Memory usage: 115.81 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 303
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.794s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 114.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 303
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.517s
+|	|	|		CPU load: 14.03%
+|	|	|		Memory usage: 111.68 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 200
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.490s
+|	|	|		CPU load: 13.75%
+|	|	|		Memory usage: 110.51 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 200
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.547s
+|	|	|		CPU load: 16.78%
+|	|	|		Memory usage: 110.21 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 200
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 7.856s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 173.00 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1311
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.897s
+|	|	|		CPU load: 12.57%
+|	|	|		Memory usage: 297.25 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1311
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.723s
+|	|	|		CPU load: 12.63%
+|	|	|		Memory usage: 299.64 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1311
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.856s
+|	|	|		CPU load: 13.05%
+|	|	|		Memory usage: 298.59 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1323
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.675s
+|	|	|		CPU load: 12.46%
+|	|	|		Memory usage: 297.70 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1323
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.808s
+|	|	|		CPU load: 12.68%
+|	|	|		Memory usage: 279.50 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1323
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.773s
+|	|	|		CPU load: 12.51%
+|	|	|		Memory usage: 300.71 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1314
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.799s
+|	|	|		CPU load: 13.33%
+|	|	|		Memory usage: 298.04 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1314
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 7.248s
+|	|	|		CPU load: 12.61%
+|	|	|		Memory usage: 296.52 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1314
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 12.105s
+|	|	|		CPU load: 12.21%
+|	|	|		Memory usage: 515.80 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2408
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 11.637s
+|	|	|		CPU load: 12.94%
+|	|	|		Memory usage: 522.75 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2408
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 11.841s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 515.19 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2408
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 11.817s
+|	|	|		CPU load: 12.10%
+|	|	|		Memory usage: 525.62 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2430
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 12.248s
+|	|	|		CPU load: 12.29%
+|	|	|		Memory usage: 517.05 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2430
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 11.952s
+|	|	|		CPU load: 12.11%
+|	|	|		Memory usage: 522.61 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2430
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 12.486s
+|	|	|		CPU load: 11.81%
+|	|	|		Memory usage: 519.64 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2407
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 11.880s
+|	|	|		CPU load: 12.11%
+|	|	|		Memory usage: 516.12 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2407
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 12.301s
+|	|	|		CPU load: 12.15%
+|	|	|		Memory usage: 519.46 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 2407
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 20.731s
+|	|	|		CPU load: 12.52%
+|	|	|		Memory usage: 869.65 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4113
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 19.962s
+|	|	|		CPU load: 12.67%
+|	|	|		Memory usage: 847.04 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4113
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 20.807s
+|	|	|		CPU load: 12.53%
+|	|	|		Memory usage: 863.73 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4113
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 20.786s
+|	|	|		CPU load: 12.12%
+|	|	|		Memory usage: 841.78 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4156
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 20.419s
+|	|	|		CPU load: 12.34%
+|	|	|		Memory usage: 835.67 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4156
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 20.982s
+|	|	|		CPU load: 11.72%
+|	|	|		Memory usage: 842.02 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4156
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 20.492s
+|	|	|		CPU load: 12.28%
+|	|	|		Memory usage: 844.89 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4131
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 20.087s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 871.39 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4131
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 20.483s
+|	|	|		CPU load: 12.56%
+|	|	|		Memory usage: 857.88 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 4131
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 30.459s
+|	|	|		CPU load: 11.91%
+|	|	|		Memory usage: 1523.13 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6029
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 31.229s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 1508.16 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6029
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 30.464s
+|	|	|		CPU load: 11.73%
+|	|	|		Memory usage: 1508.88 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6029
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 31.744s
+|	|	|		CPU load: 12.08%
+|	|	|		Memory usage: 1546.06 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6108
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 31.089s
+|	|	|		CPU load: 12.20%
+|	|	|		Memory usage: 1519.81 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6108
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 30.935s
+|	|	|		CPU load: 12.15%
+|	|	|		Memory usage: 1465.57 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6108
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 31.087s
+|	|	|		CPU load: 12.35%
+|	|	|		Memory usage: 1507.66 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6038
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 30.394s
+|	|	|		CPU load: 12.13%
+|	|	|		Memory usage: 1527.88 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6038
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 30.891s
+|	|	|		CPU load: 12.22%
+|	|	|		Memory usage: 1520.04 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 6038
+|	|	|
+Query 14
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.097s
+|	|	|		CPU load: 17.98%
+|	|	|		Memory usage: 63.88 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.093s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 63.77 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.093s
+|	|	|		CPU load: 14.49%
+|	|	|		Memory usage: 64.36 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.090s
+|	|	|		CPU load: 17.03%
+|	|	|		Memory usage: 63.90 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.098s
+|	|	|		CPU load: 9.97%
+|	|	|		Memory usage: 63.77 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.119s
+|	|	|		CPU load: 13.24%
+|	|	|		Memory usage: 63.67 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.174s
+|	|	|		CPU load: 13.51%
+|	|	|		Memory usage: 64.39 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.150s
+|	|	|		CPU load: 11.67%
+|	|	|		Memory usage: 64.41 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.142s
+|	|	|		CPU load: 13.73%
+|	|	|		Memory usage: 64.36 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 20
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.019s
+|	|	|		CPU load: 8.62%
+|	|	|		Memory usage: 79.07 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.863s
+|	|	|		CPU load: 9.95%
+|	|	|		Memory usage: 78.79 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.022s
+|	|	|		CPU load: 13.75%
+|	|	|		Memory usage: 110.91 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.448s
+|	|	|		CPU load: 15.67%
+|	|	|		Memory usage: 76.41 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.442s
+|	|	|		CPU load: 15.01%
+|	|	|		Memory usage: 75.84 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.445s
+|	|	|		CPU load: 15.33%
+|	|	|		Memory usage: 75.88 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 1.137s
+|	|	|		CPU load: 13.21%
+|	|	|		Memory usage: 108.95 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 1.015s
+|	|	|		CPU load: 12.71%
+|	|	|		Memory usage: 103.77 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 1.040s
+|	|	|		CPU load: 12.57%
+|	|	|		Memory usage: 103.89 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 198
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.850s
+|	|	|		CPU load: 12.06%
+|	|	|		Memory usage: 308.85 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1310
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.739s
+|	|	|		CPU load: 12.93%
+|	|	|		Memory usage: 290.59 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1310
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.791s
+|	|	|		CPU load: 12.62%
+|	|	|		Memory usage: 301.61 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1310
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 7.361s
+|	|	|		CPU load: 12.39%
+|	|	|		Memory usage: 290.19 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1329
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.953s
+|	|	|		CPU load: 12.28%
+|	|	|		Memory usage: 301.89 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1329
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.826s
+|	|	|		CPU load: 12.50%
+|	|	|		Memory usage: 302.54 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1329
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 6.775s
+|	|	|		CPU load: 12.34%
+|	|	|		Memory usage: 295.43 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1314
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 6.754s
+|	|	|		CPU load: 12.58%
+|	|	|		Memory usage: 294.07 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1314
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 6.789s
+|	|	|		CPU load: 12.60%
+|	|	|		Memory usage: 317.03 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 1314
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 22.879s
+|	|	|		CPU load: 12.14%
+|	|	|		Memory usage: 684.33 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4498
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 22.441s
+|	|	|		CPU load: 12.34%
+|	|	|		Memory usage: 686.16 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4498
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 21.819s
+|	|	|		CPU load: 12.07%
+|	|	|		Memory usage: 681.70 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4498
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 23.077s
+|	|	|		CPU load: 12.38%
+|	|	|		Memory usage: 705.50 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4566
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 22.596s
+|	|	|		CPU load: 12.33%
+|	|	|		Memory usage: 699.78 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4566
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 23.289s
+|	|	|		CPU load: 12.24%
+|	|	|		Memory usage: 701.07 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4566
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 22.048s
+|	|	|		CPU load: 12.17%
+|	|	|		Memory usage: 695.19 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4506
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 22.049s
+|	|	|		CPU load: 12.37%
+|	|	|		Memory usage: 694.55 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4506
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 22.709s
+|	|	|		CPU load: 11.79%
+|	|	|		Memory usage: 699.43 MB
+|	|	|		#Results: 4
+|	|	|		HTTP requests: 4506
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 89.796s
+|	|	|		CPU load: 8.25%
+|	|	|		Memory usage: 307.82 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10455
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 75.199s
+|	|	|		CPU load: 9.26%
+|	|	|		Memory usage: 281.68 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10455
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 77.091s
+|	|	|		CPU load: 8.97%
+|	|	|		Memory usage: 266.08 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10455
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 74.751s
+|	|	|		CPU load: 8.93%
+|	|	|		Memory usage: 423.14 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10575
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 72.224s
+|	|	|		CPU load: 9.36%
+|	|	|		Memory usage: 1415.26 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10575
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 75.499s
+|	|	|		CPU load: 8.86%
+|	|	|		Memory usage: 441.34 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10575
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 74.347s
+|	|	|		CPU load: 9.12%
+|	|	|		Memory usage: 405.53 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10436
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 75.039s
+|	|	|		CPU load: 9.04%
+|	|	|		Memory usage: 418.50 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10436
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 74.753s
+|	|	|		CPU load: 9.29%
+|	|	|		Memory usage: 322.22 MB
+|	|	|		#Results: 7
+|	|	|		HTTP requests: 10436
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 154.481s
+|	|	|		CPU load: 8.79%
+|	|	|		Memory usage: 450.90 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17480
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 135.609s
+|	|	|		CPU load: 9.59%
+|	|	|		Memory usage: 191.20 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17480
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 136.301s
+|	|	|		CPU load: 9.38%
+|	|	|		Memory usage: 247.10 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17480
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 138.829s
+|	|	|		CPU load: 9.14%
+|	|	|		Memory usage: 471.33 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17833
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 135.897s
+|	|	|		CPU load: 9.38%
+|	|	|		Memory usage: 271.77 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17833
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 147.018s
+|	|	|		CPU load: 9.05%
+|	|	|		Memory usage: 275.87 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17833
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 135.461s
+|	|	|		CPU load: 9.52%
+|	|	|		Memory usage: 417.88 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17327
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 133.981s
+|	|	|		CPU load: 9.39%
+|	|	|		Memory usage: 625.28 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17327
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 134.861s
+|	|	|		CPU load: 9.31%
+|	|	|		Memory usage: 477.92 MB
+|	|	|		#Results: 10
+|	|	|		HTTP requests: 17327
+|	|	|
+Query 15
+|
+|	10 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.087s
+|	|	|		CPU load: 13.51%
+|	|	|		Memory usage: 63.81 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.088s
+|	|	|		CPU load: 8.57%
+|	|	|		Memory usage: 64.29 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.087s
+|	|	|		CPU load: 9.05%
+|	|	|		Memory usage: 63.87 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.127s
+|	|	|		CPU load: 10.83%
+|	|	|		Memory usage: 64.38 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.124s
+|	|	|		CPU load: 12.60%
+|	|	|		Memory usage: 64.23 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.122s
+|	|	|		CPU load: 15.96%
+|	|	|		Memory usage: 64.02 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 11
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.089s
+|	|	|		CPU load: 17.36%
+|	|	|		Memory usage: 64.09 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.086s
+|	|	|		CPU load: 15.66%
+|	|	|		Memory usage: 63.69 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.087s
+|	|	|		CPU load: 17.76%
+|	|	|		Memory usage: 64.17 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 10
+|	|	|
+|	100 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.680s
+|	|	|		CPU load: 11.18%
+|	|	|		Memory usage: 77.65 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 101
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.793s
+|	|	|		CPU load: 11.08%
+|	|	|		Memory usage: 78.28 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 101
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.740s
+|	|	|		CPU load: 11.88%
+|	|	|		Memory usage: 77.29 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 101
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.815s
+|	|	|		CPU load: 12.45%
+|	|	|		Memory usage: 76.84 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 103
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.743s
+|	|	|		CPU load: 11.31%
+|	|	|		Memory usage: 77.12 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 103
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.689s
+|	|	|		CPU load: 11.90%
+|	|	|		Memory usage: 77.36 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 103
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 0.422s
+|	|	|		CPU load: 12.97%
+|	|	|		Memory usage: 75.37 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 0.431s
+|	|	|		CPU load: 15.86%
+|	|	|		Memory usage: 75.74 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 0.427s
+|	|	|		CPU load: 14.14%
+|	|	|		Memory usage: 75.84 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 100
+|	|	|
+|	500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.561s
+|	|	|		CPU load: 8.94%
+|	|	|		Memory usage: 98.63 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1007
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.373s
+|	|	|		CPU load: 9.37%
+|	|	|		Memory usage: 98.29 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1007
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.399s
+|	|	|		CPU load: 10.00%
+|	|	|		Memory usage: 102.62 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1007
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.536s
+|	|	|		CPU load: 10.44%
+|	|	|		Memory usage: 106.12 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.442s
+|	|	|		CPU load: 9.37%
+|	|	|		Memory usage: 98.42 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.403s
+|	|	|		CPU load: 10.45%
+|	|	|		Memory usage: 102.36 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1016
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 3.264s
+|	|	|		CPU load: 9.75%
+|	|	|		Memory usage: 98.14 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1001
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 3.318s
+|	|	|		CPU load: 10.71%
+|	|	|		Memory usage: 99.06 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1001
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 3.397s
+|	|	|		CPU load: 9.78%
+|	|	|		Memory usage: 102.56 MB
+|	|	|		#Results: 0
+|	|	|		HTTP requests: 1001
+|	|	|
+|	1000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 15.430s
+|	|	|		CPU load: 13.70%
+|	|	|		Memory usage: 429.52 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3014
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 14.808s
+|	|	|		CPU load: 13.95%
+|	|	|		Memory usage: 423.54 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3014
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.508s
+|	|	|		CPU load: 14.06%
+|	|	|		Memory usage: 426.93 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3014
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.848s
+|	|	|		CPU load: 13.68%
+|	|	|		Memory usage: 1052.23 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3034
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.529s
+|	|	|		CPU load: 13.55%
+|	|	|		Memory usage: 428.74 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3034
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 14.843s
+|	|	|		CPU load: 13.75%
+|	|	|		Memory usage: 1056.63 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3034
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 14.685s
+|	|	|		CPU load: 13.51%
+|	|	|		Memory usage: 451.33 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3014
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 15.363s
+|	|	|		CPU load: 12.93%
+|	|	|		Memory usage: 428.75 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3014
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 15.580s
+|	|	|		CPU load: 13.83%
+|	|	|		Memory usage: 761.24 MB
+|	|	|		#Results: 1
+|	|	|		HTTP requests: 3014
+|	|	|
+|	2000 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 28.996s
+|	|	|		CPU load: 13.16%
+|	|	|		Memory usage: 847.34 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6020
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 29.765s
+|	|	|		CPU load: 13.29%
+|	|	|		Memory usage: 1153.48 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6020
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 29.159s
+|	|	|		CPU load: 13.54%
+|	|	|		Memory usage: 1091.48 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6020
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 29.565s
+|	|	|		CPU load: 12.75%
+|	|	|		Memory usage: 2297.16 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6058
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 30.018s
+|	|	|		CPU load: 13.10%
+|	|	|		Memory usage: 1168.38 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6058
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 29.922s
+|	|	|		CPU load: 12.81%
+|	|	|		Memory usage: 841.61 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6058
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 30.023s
+|	|	|		CPU load: 12.99%
+|	|	|		Memory usage: 1105.54 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6035
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 30.760s
+|	|	|		CPU load: 13.19%
+|	|	|		Memory usage: 1128.31 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6035
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 30.204s
+|	|	|		CPU load: 12.68%
+|	|	|		Memory usage: 2292.19 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 6035
+|	|	|
+|	3500 persons
+|	|
+|	|	False positive probability 0.001
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 52.817s
+|	|	|		CPU load: 12.72%
+|	|	|		Memory usage: 2812.72 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10526
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 51.467s
+|	|	|		CPU load: 12.80%
+|	|	|		Memory usage: 2856.98 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10526
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 51.219s
+|	|	|		CPU load: 13.36%
+|	|	|		Memory usage: 2822.13 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10526
+|	|	|
+|	|	False positive probability 0.01
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 51.466s
+|	|	|		CPU load: 13.21%
+|	|	|		Memory usage: 2823.05 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10580
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 51.810s
+|	|	|		CPU load: 13.10%
+|	|	|		Memory usage: 2865.37 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10580
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 51.596s
+|	|	|		CPU load: 12.96%
+|	|	|		Memory usage: 2846.95 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10580
+|	|	|
+|	|	False positive probability 0.016
+|	|	|
+|	|	|	Iteration 1
+|	|	|
+|	|	|		Query execution time: 51.044s
+|	|	|		CPU load: 13.12%
+|	|	|		Memory usage: 2817.75 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10553
+|	|	|
+|	|	|	Iteration 2
+|	|	|
+|	|	|		Query execution time: 51.442s
+|	|	|		CPU load: 13.05%
+|	|	|		Memory usage: 2822.36 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10553
+|	|	|
+|	|	|	Iteration 3
+|	|	|
+|	|	|		Query execution time: 51.364s
+|	|	|		CPU load: 13.02%
+|	|	|		Memory usage: 2912.65 MB
+|	|	|		#Results: 2
+|	|	|		HTTP requests: 10553
+|	|	|

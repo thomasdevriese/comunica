@@ -24,4 +24,6 @@ summaries
 summaries_test
 sources
 test.js
-results*
+results1*
+results2*
+results3*
