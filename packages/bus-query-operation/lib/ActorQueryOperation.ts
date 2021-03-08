@@ -1,50 +1,99 @@
-import type { ActionContext, IAction, IActorArgs, IActorTest, Mediator } from '@comunica/core';
+import { KeysInitSparql, KeysQueryOperation } from '@comunica/context-entries';
+import type { ActionContext, IActorArgs, IActorTest, Mediator } from '@comunica/core';
 import { Actor } from '@comunica/core';
-import type { AsyncIterator } from 'asynciterator';
-import type * as RDF from 'rdf-js';
+import type {
+  IActionQueryOperation,
+  IActorQueryOperationOutput,
+  IActorQueryOperationOutputBindings,
+  IActorQueryOperationOutputBoolean,
+  IActorQueryOperationOutputQuads,
+  IActorQueryOperationOutputStream,
+  Bindings,
+  PatternBindings,
+} from '@comunica/types';
 import type { Algebra } from 'sparqlalgebrajs';
-import type { Bindings, BindingsStream } from './Bindings';
 import { materializeOperation } from './Bindings';
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { IActionQueryOperation };
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { IActorQueryOperationOutput };
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { IActorQueryOperationOutputBindings };
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { IActorQueryOperationOutputBoolean };
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { IActorQueryOperationOutputQuads };
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { IActorQueryOperationOutputStream };
+
+/**
+ * @deprecated Use the type in @comunica/types
+ */
+export type { PatternBindings as IPatternBindings };
 
 /**
  * @type {string} Context entry for current metadata.
  *                I.e., the metadata that was used to determine the next BGP operation.
  * @value {any} A metadata hash.
+ * @deprecated Import this constant from @comunica/context-entries.
  */
-export const KEY_CONTEXT_BGP_CURRENTMETADATA = '@comunica/bus-query-operation:bgpCurrentMetadata';
+export const KEY_CONTEXT_BGP_CURRENTMETADATA = KeysQueryOperation.bgpCurrentMetadata;
 /**
  * @type {string} Context entry for an array of parent metadata.
  *                I.e., an array of the metadata that was present before materializing the current BGP operations.
  *                This can be passed in 'bgp' actions.
  *                The array entries should correspond to the pattern entries in the BGP.
  * @value {any} An array of metadata hashes.
+ * @deprecated Import this constant from @comunica/context-entries.
  */
-export const KEY_CONTEXT_BGP_PARENTMETADATA = '@comunica/bus-query-operation:bgpParentMetadata';
+export const KEY_CONTEXT_BGP_PARENTMETADATA = KeysQueryOperation.bgpParentMetadata;
 /**
  * @type {string} Context entry for indicating which patterns were bound from variables.
- *                I.e., an array of the same length as the value of KEY_CONTEXT_BGP_PARENTMETADATA,
+ *                I.e., an array of the same length as the value of KeysQueryOperation.patternParentMetadata,
  *                where each array value corresponds to the pattern bindings for the corresponding pattern.
- * @value {any} An array of {@link IPatternBindings}.
+ * @value {any} An array of {@link PatternBindings}.
+ * @deprecated Import this constant from @comunica/context-entries.
  */
-export const KEY_CONTEXT_BGP_PATTERNBINDINGS = '@comunica/bus-query-operation:bgpPatternBindings';
+export const KEY_CONTEXT_BGP_PATTERNBINDINGS = KeysQueryOperation.bgpPatternBindings;
 /**
  * @type {string} Context entry for parent metadata.
  *                I.e., the metadata that was present before materializing the current operation.
  *                This can be passed in 'pattern' actions.
  * @value {any} A metadata hash.
+ * @deprecated Import this constant from @comunica/context-entries.
  */
-export const KEY_CONTEXT_PATTERN_PARENTMETADATA = '@comunica/bus-query-operation:patternParentMetadata';
+export const KEY_CONTEXT_PATTERN_PARENTMETADATA = KeysQueryOperation.patternParentMetadata;
 /**
  * @type {string} Context entry for query's base IRI.
  * @value {any} A string.
+ * @deprecated Import this constant from @comunica/context-entries.
  */
-export const KEY_CONTEXT_BASEIRI = '@comunica/actor-init-sparql:baseIRI';
+export const KEY_CONTEXT_BASEIRI = KeysInitSparql.baseIRI;
 /**
  * @type {string} A timestamp representing the current time.
  *                This is required for certain SPARQL operations such as NOW().
  * @value {any} a date.
+ * @deprecated Import this constant from @comunica/context-entries.
  */
-export const KEY_CONTEXT_QUERY_TIMESTAMP = '@comunica/actor-init-sparql:queryTimestamp';
+export const KEY_CONTEXT_QUERY_TIMESTAMP = KeysInitSparql.queryTimestamp;
 
 /**
  * A comunica actor for query-operation events.
@@ -128,8 +177,8 @@ export abstract class ActorQueryOperation extends Actor<IActionQueryOperation, I
   Actor<IActionQueryOperation, IActorTest, IActorQueryOperationOutput>,
   IActionQueryOperation, IActorTest, IActorQueryOperationOutput>): IExpressionContext {
     if (context) {
-      const now: Date = context.get(KEY_CONTEXT_QUERY_TIMESTAMP);
-      const baseIRI: string = context.get(KEY_CONTEXT_BASEIRI);
+      const now: Date = context.get(KeysInitSparql.queryTimestamp);
+      const baseIRI: string = context.get(KeysInitSparql.baseIRI);
       return {
         now,
         baseIRI,
@@ -177,55 +226,6 @@ export abstract class ActorQueryOperation extends Actor<IActionQueryOperation, I
   }
 }
 
-export interface IExpressionContext {
-  now?: Date;
-  baseIRI?: string;
-  // Exists?: (expr: Algebra.ExistenceExpression, bindings: Bindings) => Promise<boolean>;
-  // bnode?: (input?: string) => Promise<RDF.BlankNode>;
-}
-
-export interface IActionQueryOperation extends IAction {
-  /**
-   * The query operation to handle.
-   */
-  operation: Algebra.Operation;
-}
-
-/**
- * Query operation output.
- * @see IActorQueryOperationOutputBindings, IActorQueryOperationOutputQuads, IActorQueryOperationOutputBoolean
- */
-export type IActorQueryOperationOutput =
-  IActorQueryOperationOutputStream |
-  IActorQueryOperationOutputQuads |
-  IActorQueryOperationOutputBoolean;
-export interface IActorQueryOperationOutputBase {
-  /**
-   * The type of output.
-   */
-  type: string;
-  /**
-   * The resulting action context.
-   */
-  context?: ActionContext;
-}
-
-/**
- * Super interface for query operation outputs that represent some for of stream.
- * @see IActorQueryOperationOutputBindings, IActorQueryOperationOutputQuads
- */
-export interface IActorQueryOperationOutputStream extends IActorQueryOperationOutputBase {
-  /**
-   * Callback that returns a promise that resolves to the metadata about the stream.
-   * This can contain things like the estimated number of total stream elements,
-   * or the order in which the bindings appear.
-   * This callback can be invoked multiple times.
-   * The actors that return this metadata will make sure that multiple calls properly cache this promise.
-   * Metadata will not be collected until this callback is invoked.
-   */
-  metadata?: () => Promise<Record<string, any>>;
-}
-
 /**
  * Helper function to get the metadata of an action output.
  * @param actionOutput An action output, with an optional metadata function.
@@ -238,62 +238,9 @@ export function getMetadata(actionOutput: IActorQueryOperationOutputStream): Pro
   return actionOutput.metadata();
 }
 
-/**
- * Query operation output for a bindings stream.
- * For example: SPARQL SELECT results
- */
-export interface IActorQueryOperationOutputBindings extends IActorQueryOperationOutputStream {
-  /**
-   * The type of output.
-   */
-  type: 'bindings';
-  /**
-   * The stream of bindings resulting from the given operation.
-   */
-  bindingsStream: BindingsStream;
-  /**
-   * The list of variable names (without '?') for which bindings are provided in the stream.
-   */
-  variables: string[];
-  /**
-   * If any of the bindings could contain an undefined variable binding.
-   * If this is false, then all variables are guaranteed to have a defined bound value in the bindingsStream.
-   */
-  canContainUndefs: boolean;
+export interface IExpressionContext {
+  now?: Date;
+  baseIRI?: string;
+  // Exists?: (expr: Algebra.ExistenceExpression, bindings: Bindings) => Promise<boolean>;
+  // bnode?: (input?: string) => Promise<RDF.BlankNode>;
 }
-
-/**
- * Query operation output for quads.
- * For example: SPARQL CONSTRUCT results
- */
-export interface IActorQueryOperationOutputQuads extends IActorQueryOperationOutputStream {
-  /**
-   * The type of output.
-   */
-  type: 'quads';
-  /**
-   * The stream of quads.
-   */
-  quadStream: RDF.Stream & AsyncIterator<RDF.Quad>;
-}
-
-/**
- * Query operation output for quads.
- * For example: SPARQL ASK results
- */
-export interface IActorQueryOperationOutputBoolean extends IActorQueryOperationOutputBase {
-  /**
-   * The type of output.
-   */
-  type: 'boolean';
-  /**
-   * A promise resolving to the boolean output of the operation.
-   */
-  booleanResult: Promise<boolean>;
-
-}
-
-/**
- * Binds a quad pattern term's position to a variable.
- */
-export type IPatternBindings = Record<string, RDF.Variable>;

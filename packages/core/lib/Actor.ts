@@ -1,7 +1,10 @@
+import { KeysCore } from '@comunica/context-entries';
+import type { IAction, ActionContext as _ActionContext } from '@comunica/types';
 import { Map } from 'immutable';
 import type { Bus } from './Bus';
 import type { Logger } from './Logger';
-import { KEY_CONTEXT_LOG } from './Logger';
+
+export type { IAction };
 
 /**
  * An actor can act on messages of certain types and provide output of a certain type.
@@ -50,7 +53,7 @@ export abstract class Actor<I extends IAction, T extends IActorTest, O extends I
    * @return {Logger} The logger or undefined.
    */
   public static getContextLogger(context?: ActionContext): Logger | undefined {
-    return context && context.get(KEY_CONTEXT_LOG);
+    return context && context.get(KeysCore.log);
   }
 
   /**
@@ -171,7 +174,7 @@ export interface IActorArgs<I extends IAction, T extends IActorTest, O extends I
  * This context may be transformed before forwarding.
  *
  * Each bus should describe in its action interface which context entries are possible (non-restrictive)
- * and expose a `KEY_CONTEXT_${ENTRY_NAME}` constant for easy reuse.
+ * and corresponding context keys should be exposed in '@comunica/context-entries' for easy reuse.
  * If actors support any specific context entries next to those inherited by the bus action interface,
  * then this should be described in its README file.
  *
@@ -182,8 +185,10 @@ export interface IActorArgs<I extends IAction, T extends IActorTest, O extends I
  *
  * This context can contain any information that might be relevant for certain actors.
  * For instance, this context can contain a list of datasources over which operators should query.
+ *
+ * @deprecated Use the same type from @comunica/types
  */
-export type ActionContext = Map<string, any>;
+export type ActionContext = _ActionContext;
 
 /**
  * A convenience constructor for {@link ActionContext} based on a given hash.
@@ -204,17 +209,6 @@ export function ActionContext(hash: Record<string, any>): ActionContext {
  */
 export function ensureActionContext(maybeActionContext: any): ActionContext {
   return Map.isMap(maybeActionContext) ? maybeActionContext : ActionContext(maybeActionContext);
-}
-
-/**
- * Data interface for the type of action.
- */
-export interface IAction {
-
-  /**
-   * The optional input context that is passed through by actors.
-   */
-  context?: ActionContext;
 }
 
 /**

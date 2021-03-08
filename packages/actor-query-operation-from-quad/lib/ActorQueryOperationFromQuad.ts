@@ -1,7 +1,7 @@
-import type { IActorQueryOperationOutput,
-  IActorQueryOperationTypedMediatedArgs } from '@comunica/bus-query-operation';
+import type { IActorQueryOperationTypedMediatedArgs } from '@comunica/bus-query-operation';
 import { ActorQueryOperationTypedMediated } from '@comunica/bus-query-operation';
 import type { ActionContext, IActorTest } from '@comunica/core';
+import type { IActorQueryOperationOutput } from '@comunica/types';
 import type * as RDF from 'rdf-js';
 import { Algebra, Factory } from 'sparqlalgebrajs';
 
@@ -117,7 +117,7 @@ export class ActorQueryOperationFromQuad extends ActorQueryOperationTypedMediate
         ));
       }
       // The pattern's graph is defined (including the default graphs)
-      const isNamedGraphAvailable: boolean = namedGraphs.concat(defaultGraphs).some(
+      const isNamedGraphAvailable: boolean = [ ...namedGraphs, ...defaultGraphs ].some(
         (namedGraph: RDF.Term) => namedGraph.equals(patternGraph),
       );
       if (isNamedGraphAvailable) {

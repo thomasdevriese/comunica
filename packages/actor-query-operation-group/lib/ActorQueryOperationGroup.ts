@@ -1,10 +1,10 @@
-import type { IActorQueryOperationOutputBindings,
-  IActorQueryOperationTypedMediatedArgs } from '@comunica/bus-query-operation';
+import type { IActorQueryOperationTypedMediatedArgs } from '@comunica/bus-query-operation';
 import {
   ActorQueryOperation,
   ActorQueryOperationTypedMediated,
 } from '@comunica/bus-query-operation';
 import type { ActionContext, IActorTest } from '@comunica/core';
+import type { IActorQueryOperationOutputBindings } from '@comunica/types';
 import { ArrayIterator } from 'asynciterator';
 import { termToString } from 'rdf-string';
 import type { Algebra } from 'sparqlalgebrajs';
@@ -38,9 +38,10 @@ export class ActorQueryOperationGroup extends ActorQueryOperationTypedMediated<A
     // The variables in scope are the variables on which we group, i.e. pattern.variables.
     // For 'GROUP BY ?x, ?z', this is [?x, ?z], for 'GROUP by expr(?x) as ?e' this is [?e].
     // But also in scope are the variables defined by the aggregations, since GROUP has to handle this.
-    const variables = pattern.variables
-      .map(x => termToString(x))
-      .concat(aggregates.map(agg => termToString(agg.variable)));
+    const variables = [
+      ...pattern.variables.map(x => termToString(x)),
+      ...aggregates.map(agg => termToString(agg.variable)),
+    ];
 
     const sparqleeConfig = { ...ActorQueryOperation.getExpressionContext(context) };
 
