@@ -37,16 +37,9 @@ export class ActorSparqlSerializeStats extends ActorSparqlSerializeFixedMediaTyp
   }
 
   public pushFooter(data: Readable, startTime: [number, number], result: number): void {
-    // const footer: string = [ 'TOTAL', this.delay(startTime), this.httpObserver.requests,
-    // ].join(',');
-    const here = this;
-    // Enforce these two lines to always print after the other metrics (otherwise, when there are no results, they are printed after the other metrics but when there are results, they are printed before).
-    setTimeout(function(){
-      data.push(`|\t|\t|\t\t#Results: ${result}\n`);
-      data.push(`|\t|\t|\t\tHTTP requests: ${here.httpObserver.requests}\n|\t|\t|\n`);
-      // data.push(`${footer}\n`);
-      data.push(null);
-    },1);
+    data.push(`|\t|\t|\t\t#Results: ${result}\n`);
+    data.push(`|\t|\t|\t\tHTTP requests: ${this.httpObserver.requests}\n`);
+    data.push(null);
   }
 
   public async runHandle(action: IActionSparqlSerialize, mediaType: string, context: ActionContext):

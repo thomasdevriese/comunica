@@ -636,16 +636,25 @@ Query 5
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.131s
+|	|	|		CPU load: 10.42%
+|	|	|		Memory usage: 69.48 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.165s
+|	|	|		CPU load: 11.74%
+|	|	|		Memory usage: 69.84 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.111s
+|	|	|		CPU load: 12.17%
+|	|	|		Memory usage: 67.75 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
@@ -653,16 +662,25 @@ Query 5
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.659s
+|	|	|		CPU load: 17.19%
+|	|	|		Memory usage: 104.06 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 100
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.487s
+|	|	|		CPU load: 20.07%
+|	|	|		Memory usage: 101.52 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 100
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.492s
+|	|	|		CPU load: 16.25%
+|	|	|		Memory usage: 98.44 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 100
 |	|	|
@@ -776,16 +794,25 @@ Query 6
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.129s
+|	|	|		CPU load: 13.57%
+|	|	|		Memory usage: 68.25 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.138s
+|	|	|		CPU load: 11.23%
+|	|	|		Memory usage: 69.26 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.165s
+|	|	|		CPU load: 9.47%
+|	|	|		Memory usage: 69.37 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
@@ -889,16 +916,25 @@ Query 7
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.181s
+|	|	|		CPU load: 12.77%
+|	|	|		Memory usage: 67.48 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.146s
+|	|	|		CPU load: 10.54%
+|	|	|		Memory usage: 67.74 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.134s
+|	|	|		CPU load: 13.06%
+|	|	|		Memory usage: 67.65 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
@@ -1476,16 +1512,25 @@ Query 11
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.115s
+|	|	|		CPU load: 13.47%
+|	|	|		Memory usage: 70.04 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.225s
+|	|	|		CPU load: 10.30%
+|	|	|		Memory usage: 69.82 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.168s
+|	|	|		CPU load: 12.65%
+|	|	|		Memory usage: 69.54 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
@@ -1493,16 +1538,25 @@ Query 11
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.503s
+|	|	|		CPU load: 17.87%
+|	|	|		Memory usage: 99.22 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 100
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.494s
+|	|	|		CPU load: 19.76%
+|	|	|		Memory usage: 102.02 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 100
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.497s
+|	|	|		CPU load: 19.23%
+|	|	|		Memory usage: 98.09 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 100
 |	|	|
@@ -1604,16 +1658,25 @@ Query 12
 |	|
 |	|	Iteration 1
 |	|	|
+|	|	|		Query execution time: 0.177s
+|	|	|		CPU load: 9.90%
+|	|	|		Memory usage: 68.84 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 2
 |	|	|
+|	|	|		Query execution time: 0.124s
+|	|	|		CPU load: 10.90%
+|	|	|		Memory usage: 69.31 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
 |	|	Iteration 3
 |	|	|
+|	|	|		Query execution time: 0.113s
+|	|	|		CPU load: 6.91%
+|	|	|		Memory usage: 67.23 MB
 |	|	|		#Results: 0
 |	|	|		HTTP requests: 10
 |	|	|
