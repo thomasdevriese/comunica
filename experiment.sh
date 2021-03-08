@@ -7,9 +7,8 @@ trap 'echo Process interrupted; kill -INT $pid; exit' INT
 
 exec 3< "C:/Users/thoma/Documents/Master/Masterproef/Implementatie/experiments/ldbc-snb-decentralized/experiment_queries.txt"
 
-query_counter=4
-person_amounts=(10 100)
-# person_amounts=(10 100 500 1000 2000 3500)
+query_counter=0
+person_amounts=(10 100 500 1000 2000 3500)
 probabilities=(0.001 0.01 0.016)
 iterations=3
 
