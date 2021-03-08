@@ -20,8 +20,6 @@ yarn-error.log
 coverage
 documentation
 earl.ttl
-summaries
-summaries_test
 sources
 test.js
 results1*
