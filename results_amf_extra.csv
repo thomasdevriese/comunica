@@ -1,4 +1,4 @@
-Query execution time,CPU load,Memory usage,#Results,HTTP requests
+#Results,HTTP requests,Query execution time,CPU load,Memory usage
 Query 1 - 10 persons - probability 0.0002
 10,10,0.182,10.66,67.77
 10,10,0.139,12.50,67.80
