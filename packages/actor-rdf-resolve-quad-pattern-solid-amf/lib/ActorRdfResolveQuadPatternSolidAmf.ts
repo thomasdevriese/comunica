@@ -6,6 +6,7 @@ import {
 import type { ActionContext, Actor, IActorArgs, IActorTest, Mediator } from '@comunica/core';
 import * as fs from 'fs';
 import * as path from 'path';
+import { termToString } from 'rdf-string';
 const Bloem = require('bloem').Bloem;
 
 const KEY_CONTEXT_AMF_EXECUTED = '@comunica/bus-rdf-resolve-quad-pattern:amf-executed';
@@ -52,12 +53,9 @@ export class ActorRdfResolveQuadPatternSolidAmf extends ActorRdfResolveQuadPatte
               const summary = JSON.parse(fs.readFileSync(summaryPath).toString());
               const buffer = Buffer.from(summary.filter, 'base64');
               const bloom = new Bloem(summary.m, summary.k, buffer);
-              let searchString = action.pattern[term].termType === "Literal" ? '"' : '';
-              searchString += `${action.pattern[term].value}${action.pattern[term].termType === "Literal" ? '"' : ''}`;
-              searchString += `${(action.pattern[term].termType === "Literal" && action.pattern[term].language) ? `@${action.pattern[term].language}` : ''}`;
-              searchString += `${(action.pattern[term].termType === "Literal" && action.pattern[term].datatype.value !== 'http://www.w3.org/2001/XMLSchema#string') ? `^^${action.pattern[term].datatype.value}` : ''}`;
+              const searchString = termToString(action.pattern[term]) || '';
               
-              if(!bloom.has(Buffer.from(searchString))) {
+              if(Boolean(searchString) && !bloom.has(Buffer.from(searchString))) {
                 addSource = false;
               }
             }

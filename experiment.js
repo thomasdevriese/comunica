@@ -38,7 +38,7 @@ async function init() {
   PREFIX dbpedia: <${baseUrl}/dbpedia.org/resource/>
   PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>\n`;
   const query = process.argv[4] ||
-  `SELECT ?person WHERE { ?person snvoc:firstName "Tom" . ?person snvoc:gender "male" . }
+  `SELECT ?person WHERE { ?person snvoc:firstName "Tom" . }
   `;
   const sparqlQuery = prefixes.concat(query);
 
