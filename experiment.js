@@ -75,7 +75,6 @@ async function executeQuery(sparqlQuery, sources) {
   // let { data } = await myEngine.resultToString(result, 'table');
   data.pipe(process.stdout);
 
-  // result.bindingsStream.on('end', () => {
   data.on('end', () => {
     // Print metrics
     const executionEnd = process.hrtime(executionStart);
@@ -89,7 +88,6 @@ async function executeQuery(sparqlQuery, sources) {
     console.log(`|\t|\t|\t\tMemory usage: ${(memory.rss/1024/1024).toFixed(2)} MB\n|\t|\t|`);
   });
 
-  // result.bindingsStream.on('error', (error) => {
   data.on('error', (error) => {
     console.error(error);
   });
