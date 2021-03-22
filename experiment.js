@@ -28,17 +28,14 @@ async function init() {
   const baseUrl = 'http://localhost:3000';
 
   const prefixes = `
-  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-  PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-  PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-  PREFIX sn: <${baseUrl}/www.ldbc.eu/ldbc_socialnet/1.0/data/>
   PREFIX snvoc: <${baseUrl}/www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
-  PREFIX sntag: <${baseUrl}/www.ldbc.eu/ldbc_socialnet/1.0/tag/>
-  PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-  PREFIX dbpedia: <${baseUrl}/dbpedia.org/resource/>
-  PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>\n`;
+  PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n`;
+
   const query = process.argv[4] ||
-  `SELECT ?person WHERE { ?person snvoc:firstName "Tom" . }
+  `SELECT ?person WHERE 
+  {
+    ?person snvoc:firstName "Tom" .
+  }
   `;
   const sparqlQuery = prefixes.concat(query);
 
